@@ -80,6 +80,11 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+.env.local
+
+# User uploaded media
+uploads/
+!uploads/.gitkeep
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
