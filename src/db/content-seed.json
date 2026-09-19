@@ -1,0 +1,3329 @@
+[
+  {
+    "key": "NAV_ITEMS",
+    "label": "เมนูด้านบน",
+    "group": "เว็บไซต์",
+    "value": [
+      {
+        "label": "หน้าแรก",
+        "href": "#home"
+      },
+      {
+        "label": "เมนูทั้งหมด",
+        "href": "/menu"
+      },
+      {
+        "label": "มิกซ์กับฟ่าง ✨",
+        "href": "/mix"
+      },
+      {
+        "label": "สุ่มแก้วกับฟ่าง 🎲",
+        "href": "/lucky-drink"
+      },
+      {
+        "label": "โปรโมชั่น",
+        "href": "/promotions"
+      },
+      {
+        "label": "เกี่ยวกับร้าน",
+        "href": "#about"
+      },
+      {
+        "label": "ติดต่อเรา",
+        "href": "#contact"
+      }
+    ]
+  },
+  {
+    "key": "FOOTER_LINKS",
+    "label": "ลิงก์ท้ายเว็บ",
+    "group": "เว็บไซต์",
+    "value": [
+      {
+        "label": "หน้าแรก",
+        "href": "#home"
+      },
+      {
+        "label": "เมนูทั้งหมด",
+        "href": "/menu"
+      },
+      {
+        "label": "สมูทตี้",
+        "href": "/menu/smoothie"
+      },
+      {
+        "label": "น้ำสมุนไพรโฮมเมด",
+        "href": "/menu/herbal"
+      },
+      {
+        "label": "ท็อปปิ้ง",
+        "href": "/menu/toppings"
+      },
+      {
+        "label": "มิกซ์กับฟ่าง",
+        "href": "/mix"
+      },
+      {
+        "label": "โปรโมชั่น",
+        "href": "/promotions"
+      },
+      {
+        "label": "รีวิวลูกค้า",
+        "href": "#reviews"
+      },
+      {
+        "label": "เกี่ยวกับร้าน",
+        "href": "#about"
+      },
+      {
+        "label": "ติดต่อเรา",
+        "href": "#contact"
+      }
+    ]
+  },
+  {
+    "key": "DRINK_CATEGORIES",
+    "label": "หมวดเครื่องดื่ม",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "id": "drinks",
+        "label": "เมนูกาแฟ",
+        "emoji": "☕",
+        "desc": "กาแฟหอมกรุ่น เข้มกำลังดี",
+        "palette": {
+          "foam": "#efe2d6",
+          "top": "#a9764f",
+          "bottom": "#5b3a24"
+        },
+        "tint": "from-amber-100 to-orange-200/40"
+      },
+      {
+        "id": "milk",
+        "label": "เมนูนม",
+        "emoji": "🥛",
+        "desc": "นมสด นมหมี ชานม หอมมันละมุน",
+        "palette": {
+          "foam": "#fffaf0",
+          "top": "#ffe3c2",
+          "bottom": "#f3c17e"
+        },
+        "tint": "from-amber-100 to-amber-200/50"
+      },
+      {
+        "id": "tea",
+        "label": "เมนูชา",
+        "emoji": "🍵",
+        "desc": "ชาดำ ชาเขียว หอมกลมกล่อม",
+        "palette": {
+          "foam": "#fff0df",
+          "top": "#f0a962",
+          "bottom": "#cf6f26"
+        },
+        "tint": "from-orange-100 to-amber-200/50"
+      },
+      {
+        "id": "smoothie",
+        "label": "สมูทตี้",
+        "emoji": "🍓",
+        "desc": "ผลไม้ปั่นสดใหม่ทุกแก้ว",
+        "palette": {
+          "foam": "#fff2f6",
+          "top": "#ff9ec0",
+          "bottom": "#f0507f"
+        },
+        "tint": "from-blossom-100 to-blossom-200/50"
+      },
+      {
+        "id": "soda",
+        "label": "อิตาเลียนโซดา",
+        "emoji": "🫧",
+        "desc": "Italian Soda · ซ่าสดชื่น",
+        "palette": {
+          "foam": "#eaf7ff",
+          "top": "#8fd6ff",
+          "bottom": "#2b9be0"
+        },
+        "tint": "from-sky-100 to-sky-200/50"
+      },
+      {
+        "id": "hot",
+        "label": "เมนูร้อน",
+        "emoji": "☕",
+        "desc": "กาแฟ ชา นม ร้อน ๆ อุ่นสบาย",
+        "palette": {
+          "foam": "#efe2d6",
+          "top": "#c39a70",
+          "bottom": "#7a4f2e"
+        },
+        "tint": "from-amber-100 to-orange-200/40"
+      },
+      {
+        "id": "sticky",
+        "label": "นมเหนียว",
+        "emoji": "🍮",
+        "desc": "กินคู่เครื่องดื่ม หรือคู่แครกเกอร์แบบไม่ใส่น้ำก็ได้",
+        "palette": {
+          "foam": "#fff8ec",
+          "top": "#f5e2c0",
+          "bottom": "#e0b97e"
+        },
+        "tint": "from-amber-50 to-yellow-200/50"
+      }
+    ]
+  },
+  {
+    "key": "MENU_SECTIONS",
+    "label": "หมวดหน้าเมนูทั้งหมด",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "id": "drinks",
+        "label": "เมนูกาแฟ",
+        "labelEn": "Coffee",
+        "emoji": "☕",
+        "href": "/menu/drinks",
+        "desc": "กาแฟปลุกฟ่าง ☕",
+        "palette": {
+          "foam": "#efe2d6",
+          "top": "#a9764f",
+          "bottom": "#5b3a24"
+        }
+      },
+      {
+        "id": "milk",
+        "label": "เมนูนม",
+        "labelEn": "Milk Drinks",
+        "emoji": "🥛",
+        "href": "/menu/milk",
+        "desc": "นมละมุนกอดใจ 🥛",
+        "palette": {
+          "foam": "#fffaf0",
+          "top": "#ffe3c2",
+          "bottom": "#f3c17e"
+        }
+      },
+      {
+        "id": "tea",
+        "label": "เมนูชา",
+        "labelEn": "Tea Drinks",
+        "emoji": "🍵",
+        "href": "/menu/tea",
+        "desc": "ชาหอม ๆ มู้ดดี 🍵",
+        "palette": {
+          "foam": "#fff0df",
+          "top": "#f0a962",
+          "bottom": "#cf6f26"
+        }
+      },
+      {
+        "id": "smoothie",
+        "label": "สมูทตี้",
+        "labelEn": "Smoothies",
+        "emoji": "🍓",
+        "href": "/menu/smoothie",
+        "desc": "เติมความจึ้ง ✨",
+        "palette": {
+          "foam": "#fff2f6",
+          "top": "#ff9ec0",
+          "bottom": "#f0507f"
+        }
+      },
+      {
+        "id": "soda",
+        "label": "อิตาเลียนโซดา",
+        "labelEn": "Italian Soda",
+        "emoji": "🫧",
+        "href": "/menu/soda",
+        "desc": "ซ่าจนใจสั่น 🫧",
+        "palette": {
+          "foam": "#eaf7ff",
+          "top": "#8fd6ff",
+          "bottom": "#2b9be0"
+        }
+      },
+      {
+        "id": "hot",
+        "label": "เมนูร้อน",
+        "labelEn": "Hot Drinks",
+        "emoji": "☕",
+        "href": "/menu/hot",
+        "desc": "อุ่น ๆ ฮีลใจ 🔥",
+        "palette": {
+          "foam": "#efe2d6",
+          "top": "#c39a70",
+          "bottom": "#7a4f2e"
+        }
+      },
+      {
+        "id": "sticky",
+        "label": "นมเหนียว",
+        "labelEn": "Sticky Milk",
+        "emoji": "🍮",
+        "href": "/menu/sticky",
+        "desc": "เลือกคู่ที่ใช่ในแก้วของคุณ 💜",
+        "palette": {
+          "foam": "#fff8ec",
+          "top": "#f5e2c0",
+          "bottom": "#e0b97e"
+        }
+      },
+      {
+        "id": "herbal",
+        "label": "น้ำสมุนไพรโฮมเมด",
+        "labelEn": "Homemade Herbal",
+        "emoji": "🌿",
+        "href": "/menu/herbal",
+        "desc": "จิบสดชื่นจากบ้านฟ่าง 🌿",
+        "palette": {
+          "foam": "#eef7ea",
+          "top": "#9ec97e",
+          "bottom": "#4f8a3c"
+        }
+      },
+      {
+        "id": "whipped",
+        "label": "วิปครีมแก้ว",
+        "labelEn": "Whipped Cream Cups",
+        "emoji": "🍦",
+        "href": "/menu/whipped",
+        "desc": "วิปฟู ๆ ใจฟู 🍦",
+        "palette": {
+          "foam": "#fff6fa",
+          "top": "#ffe0ee",
+          "bottom": "#f9b6d4"
+        }
+      },
+      {
+        "id": "soft",
+        "label": "น้ำอัดลม",
+        "labelEn": "Soft Drinks",
+        "emoji": "🥤",
+        "href": "/menu/soft",
+        "desc": "ซ่าซ่าเลือกเลย! 🥤",
+        "palette": {
+          "foam": "#e6f3ff",
+          "top": "#5ab0f0",
+          "bottom": "#1f6fc4"
+        }
+      },
+      {
+        "id": "snacks",
+        "label": "ขนมกินเพลิน",
+        "labelEn": "Snacks & Bakery",
+        "emoji": "🍪",
+        "href": "/menu/snacks",
+        "desc": "ของกินเล่น จับคู่แก้วโปรด 🍪"
+      },
+      {
+        "id": "sandwiches",
+        "label": "แซนด์วิช",
+        "labelEn": "Sandwiches",
+        "emoji": "🥪",
+        "href": "/menu/sandwiches",
+        "desc": "คาว/ผลไม้ครีมสด/แยม 🥪"
+      },
+      {
+        "id": "toppings",
+        "label": "ท็อปปิ้ง",
+        "labelEn": "Toppings",
+        "emoji": "🧋",
+        "href": "/menu/toppings",
+        "desc": "เพิ่มความอร่อยทุกแก้ว"
+      }
+    ]
+  },
+  {
+    "key": "MIX_BASES",
+    "label": "เบสเครื่องดื่ม Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "milk",
+        "label": "นมสด",
+        "labelEn": "Fresh Milk",
+        "emoji": "🥛",
+        "palette": {
+          "foam": "#fff7ef",
+          "top": "#ffe3c2",
+          "bottom": "#f4c48a"
+        }
+      },
+      {
+        "id": "yogurt",
+        "label": "โยเกิร์ต",
+        "labelEn": "Yogurt",
+        "emoji": "🍦",
+        "palette": {
+          "foam": "#fef1f7",
+          "top": "#ffd0e4",
+          "bottom": "#f89bc4"
+        }
+      },
+      {
+        "id": "soda",
+        "label": "โซดา",
+        "labelEn": "Soda",
+        "emoji": "🧊",
+        "palette": {
+          "foam": "#eaf7ff",
+          "top": "#8fd6ff",
+          "bottom": "#2b9be0"
+        }
+      },
+      {
+        "id": "smoothie",
+        "label": "สมูทตี้",
+        "labelEn": "Smoothie",
+        "emoji": "🍓",
+        "palette": {
+          "foam": "#fff2f6",
+          "top": "#ff9ec0",
+          "bottom": "#f0507f"
+        }
+      },
+      {
+        "id": "coffee",
+        "label": "กาแฟ",
+        "labelEn": "Coffee",
+        "emoji": "☕",
+        "palette": {
+          "foam": "#efe2d6",
+          "top": "#a9764f",
+          "bottom": "#5b3a24"
+        }
+      }
+    ]
+  },
+  {
+    "key": "MIX_HERBAL_TYPES",
+    "label": "สมุนไพร Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "chrysanth",
+        "label": "เก๊กฮวย",
+        "labelEn": "Chrysanthemum",
+        "emoji": "🌼",
+        "palette": {
+          "foam": "#fff8e6",
+          "top": "#f4d97a",
+          "bottom": "#d9a520"
+        }
+      },
+      {
+        "id": "butterfly",
+        "label": "อัญชันมะนาว",
+        "labelEn": "Butterfly Pea Lemon",
+        "emoji": "🦋",
+        "palette": {
+          "foam": "#eef0ff",
+          "top": "#9db4f0",
+          "bottom": "#5566c9"
+        }
+      },
+      {
+        "id": "pandan",
+        "label": "ใบเตย",
+        "labelEn": "Pandan",
+        "emoji": "🌿",
+        "palette": {
+          "foam": "#eefae8",
+          "top": "#a8ce7a",
+          "bottom": "#5f9a3f"
+        }
+      },
+      {
+        "id": "passion",
+        "label": "เสาวรส",
+        "labelEn": "Passion Fruit",
+        "emoji": "🥭",
+        "palette": {
+          "foam": "#fff3e0",
+          "top": "#ffc46b",
+          "bottom": "#e88a1f"
+        }
+      },
+      {
+        "id": "honeylemon",
+        "label": "มะนาวน้ำผึ้ง",
+        "labelEn": "Honey Lemon",
+        "emoji": "🍋",
+        "palette": {
+          "foam": "#fdf7d8",
+          "top": "#f2d873",
+          "bottom": "#c9a52a"
+        }
+      },
+      {
+        "id": "grassjelly",
+        "label": "เฉาก๊วย",
+        "labelEn": "Grass Jelly",
+        "emoji": "🖤",
+        "palette": {
+          "foam": "#e9e6ea",
+          "top": "#7a7280",
+          "bottom": "#332b3a"
+        }
+      },
+      {
+        "id": "longan",
+        "label": "ลำไย",
+        "labelEn": "Longan",
+        "emoji": "🌰",
+        "palette": {
+          "foam": "#f6ece0",
+          "top": "#d3a976",
+          "bottom": "#9a6a3f"
+        }
+      },
+      {
+        "id": "roselle",
+        "label": "กระเจี๊ยบ",
+        "labelEn": "Roselle",
+        "emoji": "🌺",
+        "palette": {
+          "foam": "#fdeaf0",
+          "top": "#e77aa0",
+          "bottom": "#c02a5a"
+        }
+      }
+    ]
+  },
+  {
+    "key": "FRESH_BUFFET",
+    "label": "ข้อความ Fresh Buffet",
+    "group": "Fresh Buffet",
+    "value": {
+      "price": 49,
+      "oldPrice": 69
+    }
+  },
+  {
+    "key": "FRESH_FRUITS",
+    "label": "ผลไม้สด",
+    "group": "Fresh Buffet",
+    "value": [
+      {
+        "id": "banana",
+        "label": "กล้วย",
+        "en": "Banana",
+        "emoji": "🍌"
+      },
+      {
+        "id": "strawberry",
+        "label": "สตรอว์เบอร์รี",
+        "en": "Strawberry",
+        "emoji": "🍓"
+      },
+      {
+        "id": "apple",
+        "label": "แอปเปิล",
+        "en": "Apple",
+        "emoji": "🍎"
+      },
+      {
+        "id": "pineapple",
+        "label": "สับปะรด",
+        "en": "Pineapple",
+        "emoji": "🍍"
+      },
+      {
+        "id": "watermelon",
+        "label": "แตงโม",
+        "en": "Watermelon",
+        "emoji": "🍉"
+      },
+      {
+        "id": "orange",
+        "label": "ส้ม",
+        "en": "Orange",
+        "emoji": "🍊"
+      },
+      {
+        "id": "kiwi",
+        "label": "กีวี",
+        "en": "Kiwi",
+        "emoji": "🥝"
+      },
+      {
+        "id": "grape",
+        "label": "องุ่น",
+        "en": "Grapes",
+        "emoji": "🍇"
+      },
+      {
+        "id": "shine-muscat",
+        "label": "องุ่นไชน์มัสแคท",
+        "en": "Shine Muscat Grapes",
+        "emoji": "🍇"
+      },
+      {
+        "id": "blueberry",
+        "label": "บลูเบอร์รี",
+        "en": "Blueberry",
+        "emoji": "🫐"
+      },
+      {
+        "id": "mulberry",
+        "label": "มัลเบอร์รี",
+        "en": "Mulberry",
+        "emoji": "🫐"
+      },
+      {
+        "id": "dragonfruit",
+        "label": "แก้วมังกร",
+        "en": "Dragon Fruit",
+        "emoji": "🩷"
+      },
+      {
+        "id": "pomegranate",
+        "label": "ทับทิม",
+        "en": "Pomegranate",
+        "emoji": "❤️"
+      },
+      {
+        "id": "passion",
+        "label": "เสาวรส",
+        "en": "Passion Fruit",
+        "emoji": "💛"
+      },
+      {
+        "id": "pear",
+        "label": "สาลี่",
+        "en": "Asian Pear",
+        "emoji": "🍐"
+      },
+      {
+        "id": "persimmon",
+        "label": "ลูกพลับ",
+        "en": "Persimmon",
+        "emoji": "🟠"
+      },
+      {
+        "id": "cantaloupe",
+        "label": "แคนตาลูป",
+        "en": "Cantaloupe",
+        "emoji": "🍈"
+      },
+      {
+        "id": "melon",
+        "label": "เมล่อน",
+        "en": "Melon",
+        "emoji": "🟢"
+      },
+      {
+        "id": "roseapple",
+        "label": "ชมพู่",
+        "en": "Rose Apple",
+        "emoji": "🌸"
+      },
+      {
+        "id": "guava",
+        "label": "ฝรั่ง",
+        "en": "Guava",
+        "emoji": "💚"
+      },
+      {
+        "id": "jicama",
+        "label": "มันแกว",
+        "en": "Jicama",
+        "emoji": "🤎"
+      }
+    ]
+  },
+  {
+    "key": "FRESH_VEGGIES",
+    "label": "ผักสด",
+    "group": "Fresh Buffet",
+    "value": [
+      {
+        "id": "carrot",
+        "label": "แครอท",
+        "en": "Carrot",
+        "emoji": "🥕"
+      },
+      {
+        "id": "cucumber",
+        "label": "แตงกวา",
+        "en": "Cucumber",
+        "emoji": "🥒"
+      },
+      {
+        "id": "tomato",
+        "label": "มะเขือเทศ",
+        "en": "Tomato",
+        "emoji": "🍅"
+      },
+      {
+        "id": "spinach",
+        "label": "ผักโขม",
+        "en": "Spinach",
+        "emoji": "🌿"
+      },
+      {
+        "id": "lettuce",
+        "label": "ผักกาดหอม",
+        "en": "Lettuce",
+        "emoji": "🥬"
+      },
+      {
+        "id": "celery",
+        "label": "เซเลอรี",
+        "en": "Celery",
+        "emoji": "🌿"
+      },
+      {
+        "id": "beetroot",
+        "label": "บีตรูท",
+        "en": "Beetroot",
+        "emoji": "❤️"
+      },
+      {
+        "id": "kale",
+        "label": "เคล",
+        "en": "Kale",
+        "emoji": "🥬"
+      }
+    ]
+  },
+  {
+    "key": "FRESH_FLAVORS",
+    "label": "รสชาติ Fresh",
+    "group": "Fresh Buffet",
+    "value": [
+      {
+        "id": "honey",
+        "label": "น้ำผึ้ง",
+        "en": "Honey",
+        "emoji": "🍯"
+      },
+      {
+        "id": "yogurt",
+        "label": "โยเกิร์ต",
+        "en": "Yogurt",
+        "emoji": "🍦"
+      },
+      {
+        "id": "milk",
+        "label": "นมสด",
+        "en": "Fresh Milk",
+        "emoji": "🥛"
+      },
+      {
+        "id": "syrup",
+        "label": "น้ำเชื่อม",
+        "en": "Simple Syrup",
+        "emoji": "💧"
+      }
+    ]
+  },
+  {
+    "key": "MIX_TEA_TYPES",
+    "label": "ชนิดชา Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "thai",
+        "label": "ชาไทย",
+        "labelEn": "Thai Tea",
+        "emoji": "🍵",
+        "palette": {
+          "foam": "#fff0df",
+          "top": "#f0a962",
+          "bottom": "#cf6f26"
+        }
+      },
+      {
+        "id": "green",
+        "label": "ชาเขียว",
+        "labelEn": "Green Tea",
+        "emoji": "🍵",
+        "palette": {
+          "foam": "#f1f7e8",
+          "top": "#a8ce7a",
+          "bottom": "#5f9a3f"
+        }
+      },
+      {
+        "id": "black",
+        "label": "ชาดำ",
+        "labelEn": "Black Tea",
+        "emoji": "🍵",
+        "palette": {
+          "foam": "#efe0cf",
+          "top": "#9a6a3f",
+          "bottom": "#4f3016"
+        }
+      },
+      {
+        "id": "lemon",
+        "label": "ชามะนาว",
+        "labelEn": "Lemon Tea",
+        "emoji": "🍋",
+        "palette": {
+          "foam": "#fdf7d8",
+          "top": "#f2d873",
+          "bottom": "#c9a52a"
+        }
+      },
+      {
+        "id": "peach",
+        "label": "ชาพีช",
+        "labelEn": "Peach Tea",
+        "emoji": "🍑",
+        "palette": {
+          "foam": "#fff1ea",
+          "top": "#ffb99a",
+          "bottom": "#f77e4f"
+        }
+      },
+      {
+        "id": "apple",
+        "label": "ชาแอปเปิล",
+        "labelEn": "Apple Tea",
+        "emoji": "🍏",
+        "palette": {
+          "foam": "#f5ffe8",
+          "top": "#c3e87a",
+          "bottom": "#7cb32b"
+        }
+      },
+      {
+        "id": "honey",
+        "label": "ชาน้ำผึ้ง",
+        "labelEn": "Honey Tea",
+        "emoji": "🍯",
+        "palette": {
+          "foam": "#fdf7d8",
+          "top": "#f2d873",
+          "bottom": "#d9a520"
+        }
+      },
+      {
+        "id": "rose",
+        "label": "ชากุหลาบ",
+        "labelEn": "Rose Tea",
+        "emoji": "🌹",
+        "palette": {
+          "foam": "#fdeef4",
+          "top": "#f3a9c6",
+          "bottom": "#d95f8f"
+        }
+      },
+      {
+        "id": "jasmine",
+        "label": "ชามะลิ",
+        "labelEn": "Jasmine Tea",
+        "emoji": "🌼",
+        "palette": {
+          "foam": "#fbf8ec",
+          "top": "#ecdfa8",
+          "bottom": "#c9b85e"
+        }
+      },
+      {
+        "id": "lychee",
+        "label": "ชาลิ้นจี่",
+        "labelEn": "Lychee Tea",
+        "emoji": "🌸",
+        "palette": {
+          "foam": "#fdf0f2",
+          "top": "#f2c0c8",
+          "bottom": "#d97b88"
+        }
+      },
+      {
+        "id": "strawberry",
+        "label": "ชาสตรอว์เบอร์รี",
+        "labelEn": "Strawberry Tea",
+        "emoji": "🍓",
+        "palette": {
+          "foam": "#fff0f3",
+          "top": "#ff9fb0",
+          "bottom": "#e8536f"
+        }
+      }
+    ]
+  },
+  {
+    "key": "MIX_SYRUPS",
+    "label": "ไซรัป Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "apple",
+        "label": "แอปเปิล",
+        "labelEn": "Apple",
+        "emoji": "🍏"
+      },
+      {
+        "id": "peach",
+        "label": "พีช",
+        "labelEn": "Peach",
+        "emoji": "🍑"
+      },
+      {
+        "id": "strawberry-syrup",
+        "label": "สตรอว์เบอร์รี",
+        "labelEn": "Strawberry",
+        "emoji": "🍓"
+      },
+      {
+        "id": "lychee",
+        "label": "ลิ้นจี่",
+        "labelEn": "Lychee",
+        "emoji": "🌸"
+      },
+      {
+        "id": "mango-syrup",
+        "label": "มะม่วง",
+        "labelEn": "Mango",
+        "emoji": "🥭"
+      },
+      {
+        "id": "blueberry-syrup",
+        "label": "บลูเบอร์รี",
+        "labelEn": "Blueberry",
+        "emoji": "🫐"
+      }
+    ]
+  },
+  {
+    "key": "MIX_FRUITS",
+    "label": "ผลไม้ Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "strawberry",
+        "label": "สตรอว์เบอร์รี",
+        "labelEn": "Strawberry",
+        "emoji": "🍓"
+      },
+      {
+        "id": "grape",
+        "label": "องุ่น",
+        "labelEn": "Grape",
+        "emoji": "🍇"
+      },
+      {
+        "id": "mango",
+        "label": "มะม่วง",
+        "labelEn": "Mango",
+        "emoji": "🥭"
+      },
+      {
+        "id": "blueberry",
+        "label": "บลูเบอร์รี",
+        "labelEn": "Blueberry",
+        "emoji": "🫐"
+      },
+      {
+        "id": "kiwi",
+        "label": "กีวี",
+        "labelEn": "Kiwi",
+        "emoji": "🥝"
+      }
+    ]
+  },
+  {
+    "key": "MIX_TOPPINGS",
+    "label": "ท็อปปิ้ง Mix",
+    "group": "Mix Your Own",
+    "value": [
+      {
+        "id": "boba",
+        "label": "ไข่มุก",
+        "labelEn": "Boba",
+        "emoji": "🟤"
+      },
+      {
+        "id": "jelly",
+        "label": "เจลลี่",
+        "labelEn": "Jelly",
+        "emoji": "🟣"
+      },
+      {
+        "id": "cookie",
+        "label": "คุกกี้",
+        "labelEn": "Cookie",
+        "emoji": "🍪"
+      },
+      {
+        "id": "whip",
+        "label": "วิปครีม",
+        "labelEn": "Whipped Cream",
+        "emoji": "🍨"
+      }
+    ]
+  },
+  {
+    "key": "TOPPING_GROUPS",
+    "label": "กลุ่มท็อปปิ้ง",
+    "group": "ตัวเลือกสินค้า",
+    "value": [
+      {
+        "id": "tapioca",
+        "titleTh": "ไข่มุกแป้งมันสำปะหลัง",
+        "titleEn": "Tapioca Pearls",
+        "emoji": "🟤",
+        "items": [
+          {
+            "nameTh": "ไข่มุกดำ / ไข่มุกคลาสสิก",
+            "nameEn": "Classic Black Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกสีทอง",
+            "nameEn": "Golden Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกสีมรกต",
+            "nameEn": "Emerald Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกบราวน์ชูการ์",
+            "nameEn": "Brown Sugar Tapioca Pearls",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "popping",
+        "titleTh": "ไข่มุกป๊อป",
+        "titleEn": "Popping Boba",
+        "emoji": "🟣",
+        "items": [
+          {
+            "nameTh": "ไข่มุกป๊อปรสสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ไข่มุกป๊อปรสลิ้นจี่",
+            "nameEn": "Lychee Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ไข่มุกป๊อปรสมะม่วง",
+            "nameEn": "Mango Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ไข่มุกป๊อปรสเสาวรส",
+            "nameEn": "Passion Fruit Popping Boba",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "konjac",
+        "titleTh": "บุกและคริสตัล",
+        "titleEn": "Konjac & Crystal Jelly",
+        "emoji": "🟢",
+        "items": [
+          {
+            "nameTh": "บุกใส / บุกเพชร",
+            "nameEn": "Crystal Konjac Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "บุกบราวน์ชูการ์",
+            "nameEn": "Brown Sugar Konjac Jelly",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "jelly",
+        "titleTh": "เยลลี่และวุ้น",
+        "titleEn": "Jelly & Jelly Toppings",
+        "emoji": "🍮",
+        "items": [
+          {
+            "nameTh": "วุ้นมะพร้าว",
+            "nameEn": "Coconut Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "วุ้นคาราเมล",
+            "nameEn": "Caramel Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เฉาก๊วย",
+            "nameEn": "Grass Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่องุ่น",
+            "nameEn": "Grape Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่สตรอว์เบอร์รี",
+            "nameEn": "Strawberry Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นแอปเปิล",
+            "nameEn": "Apple Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นบลูฮาวาย",
+            "nameEn": "Blue Hawaii Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่น้องทะเล",
+            "nameEn": "Ocean Animal Jelly",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "premium",
+        "titleTh": "ท็อปปิ้งพรีเมียม",
+        "titleEn": "Premium Toppings",
+        "emoji": "🍨",
+        "items": [
+          {
+            "nameTh": "พุดดิ้ง",
+            "nameEn": "Pudding",
+            "price": 10
+          },
+          {
+            "nameTh": "เต้าฮวยนมสด",
+            "nameEn": "Fresh Milk Tofu Pudding",
+            "price": 10
+          },
+          {
+            "nameTh": "ครีมชีส",
+            "nameEn": "Cream Cheese",
+            "price": 10
+          },
+          {
+            "nameTh": "วิปครีม",
+            "nameEn": "Whipped Cream",
+            "price": 10
+          },
+          {
+            "nameTh": "ไอศกรีม",
+            "nameEn": "Ice Cream",
+            "price": 10
+          },
+          {
+            "nameTh": "นมเหนียว",
+            "nameEn": "Sticky Milk",
+            "price": 10
+          },
+          {
+            "nameTh": "ชีสขูด",
+            "nameEn": "Shredded Cheese",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "fresh-fruit",
+        "titleTh": "ท็อปปิ้งผลไม้สด",
+        "titleEn": "Fresh Fruit Toppings",
+        "emoji": "🍌",
+        "note": "🍓 ผลไม้สดมีให้เลือกแตกต่างกันในแต่ละวัน ขึ้นอยู่กับความสดและวัตถุดิบที่มีในวันนั้น กรุณาสอบถามก่อนสั่ง",
+        "noteEn": "Fresh fruit availability varies by day, depending on freshness and daily ingredients. Please check before ordering.",
+        "items": [
+          {
+            "nameTh": "กล้วยหั่นบาง",
+            "nameEn": "Sliced Banana",
+            "price": 10
+          },
+          {
+            "nameTh": "สตรอว์เบอร์รีหั่นบาง",
+            "nameEn": "Sliced Strawberry",
+            "price": 10
+          },
+          {
+            "nameTh": "สตรอว์เบอร์รีลูก",
+            "nameEn": "Whole Strawberry",
+            "price": 10
+          },
+          {
+            "nameTh": "อะโวคาโดหั่นบาง",
+            "nameEn": "Sliced Avocado",
+            "price": 10
+          },
+          {
+            "nameTh": "เนื้อมะพร้าว",
+            "nameEn": "Fresh Coconut Meat",
+            "price": 10
+          },
+          {
+            "nameTh": "เนื้อสับปะรด",
+            "nameEn": "Fresh Pineapple",
+            "price": 10
+          },
+          {
+            "nameTh": "องุ่นไชน์มัสแคท",
+            "nameEn": "Shine Muscat Grapes",
+            "price": 10
+          },
+          {
+            "nameTh": "องุ่นไร้เม็ด",
+            "nameEn": "Seedless Grapes",
+            "price": 10
+          },
+          {
+            "nameTh": "ส้มหั่นบาง",
+            "nameEn": "Sliced Orange",
+            "price": 10
+          },
+          {
+            "nameTh": "เลมอนหั่นบาง",
+            "nameEn": "Sliced Lemon",
+            "price": 10
+          },
+          {
+            "nameTh": "กีวีหั่นบาง",
+            "nameEn": "Sliced Kiwi",
+            "price": 10
+          },
+          {
+            "nameTh": "แอปเปิลหั่นบาง",
+            "nameEn": "Sliced Apple",
+            "price": 10
+          },
+          {
+            "nameTh": "แตงโมหั่นบาง",
+            "nameEn": "Sliced Watermelon",
+            "price": 10
+          },
+          {
+            "nameTh": "บลูเบอร์รี",
+            "nameEn": "Blueberries",
+            "price": 10
+          },
+          {
+            "nameTh": "มัลเบอร์รี",
+            "nameEn": "Mulberries",
+            "price": 10
+          },
+          {
+            "nameTh": "แก้วมังกรหั่นบาง",
+            "nameEn": "Sliced Dragon Fruit",
+            "price": 10
+          },
+          {
+            "nameTh": "แก้วมังกรสีแดงหั่นบาง",
+            "nameEn": "Sliced Red Dragon Fruit",
+            "price": 10
+          },
+          {
+            "nameTh": "ทับทิม",
+            "nameEn": "Pomegranate Arils",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "cereal",
+        "titleTh": "ซีเรียล & ถั่ว",
+        "titleEn": "Cereal & Nuts",
+        "emoji": "🥣",
+        "items": [
+          {
+            "nameTh": "โกโก้ครั้นซ์",
+            "nameEn": "Cocoa Crunch",
+            "price": 5
+          },
+          {
+            "nameTh": "ซีเรียลฮันนี่สตาร์",
+            "nameEn": "Honey Stars Cereal",
+            "price": 5
+          },
+          {
+            "nameTh": "อัลมอนด์สไลด์",
+            "nameEn": "Sliced Almonds",
+            "price": 10
+          },
+          {
+            "nameTh": "เวเฟอร์",
+            "nameEn": "Wafer",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "sauce-shot",
+        "titleTh": "ซอส ไซรัป & ช็อต",
+        "titleEn": "Sauces, Syrups & Shots",
+        "emoji": "🍯",
+        "items": [
+          {
+            "nameTh": "น้ำผึ้ง ช็อต",
+            "nameEn": "Honey Shot",
+            "price": 5
+          },
+          {
+            "nameTh": "คาราเมล ไซรัป",
+            "nameEn": "Caramel Syrup",
+            "price": 5
+          },
+          {
+            "nameTh": "น้ำตาลโตนด ซอส",
+            "nameEn": "Palm Sugar Sauce",
+            "price": 5
+          },
+          {
+            "nameTh": "มัทฉะ ช็อต",
+            "nameEn": "Matcha Shot",
+            "price": 10
+          },
+          {
+            "nameTh": "ชาไทย ช็อต",
+            "nameEn": "Thai Tea Shot",
+            "price": 10
+          },
+          {
+            "nameTh": "ชาเขียว ช็อต",
+            "nameEn": "Green Tea Shot",
+            "price": 10
+          },
+          {
+            "nameTh": "ซอสส้ม",
+            "nameEn": "Orange Sauce",
+            "price": 5
+          },
+          {
+            "nameTh": "เอสเพรสโซ ช็อต",
+            "nameEn": "Espresso Shot",
+            "price": 10
+          },
+          {
+            "nameTh": "ช็อกโกแลต ซอส",
+            "nameEn": "Chocolate Sauce",
+            "price": 5
+          },
+          {
+            "nameTh": "สตรอว์เบอร์รี ซอส",
+            "nameEn": "Strawberry Sauce",
+            "price": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "TOPPING_IMAGES",
+    "label": "รูปท็อปปิ้ง",
+    "group": "ตัวเลือกสินค้า",
+    "value": {
+      "Classic Black Tapioca Pearls": "/toppings/black-tapioca.jpg",
+      "Golden Tapioca Pearls": "/toppings/golden-tapioca.png",
+      "Emerald Tapioca Pearls": "/toppings/emerald-tapioca.jpg",
+      "Brown Sugar Tapioca Pearls": "/toppings/brown-sugar-tapioca.jpg",
+      "Strawberry Popping Boba": "/toppings/strawberry-boba.jpg",
+      "Lychee Popping Boba": "/toppings/lychee-boba.jpg",
+      "Mango Popping Boba": "/toppings/mango-boba.jpg",
+      "Passion Fruit Popping Boba": "/toppings/passionfruit-boba.jpg",
+      "Crystal Konjac Jelly": "/toppings/crystal-konjac.jpg",
+      "Brown Sugar Konjac Jelly": "/toppings/brown-sugar-konjac.jpg",
+      "Coconut Jelly": "/toppings/coconut-jelly.jpg",
+      "Caramel Jelly": "/toppings/caramel-jelly.jpg",
+      "Grass Jelly": "/toppings/grass-jelly.jpg",
+      "Grape Jelly": "/toppings/grape-jelly.jpg",
+      "Strawberry Jelly": "/toppings/strawberry-jelly.jpg",
+      "Apple Fruit Cocktail Jelly": "/toppings/apple-cocktail-jelly.jpg",
+      "Blue Hawaii Fruit Cocktail Jelly": "/toppings/bluehawaii-cocktail-jelly.jpg",
+      "Strawberry Fruit Cocktail Jelly": "/toppings/fruit-cocktail-jelly.jpg",
+      "Ocean Animal Jelly": "/toppings/ocean-jelly.jpg",
+      "Pudding": "/toppings/pudding.jpg",
+      "Fresh Milk Tofu Pudding": "/toppings/tofu-pudding.jpg",
+      "Cream Cheese": "/toppings/cream-cheese.jpg",
+      "Whipped Cream": "/toppings/whipped-cream.jpg",
+      "Ice Cream": "/toppings/ice-cream.jpg",
+      "Sliced Banana": "/toppings/banana.jpg",
+      "Sliced Strawberry": "/toppings/strawberry-sliced.jpg",
+      "Whole Strawberry": "/toppings/strawberry-whole.jpg",
+      "Sliced Avocado": "/toppings/avocado.jpg",
+      "Fresh Coconut Meat": "/toppings/coconut-meat.jpg",
+      "Fresh Pineapple": "/toppings/pineapple.jpg",
+      "Shine Muscat Grapes": "/toppings/shine-muscat.jpg",
+      "Seedless Grapes": "/toppings/seedless-grape.jpg",
+      "Sliced Orange": "/toppings/orange.jpg",
+      "Sliced Lemon": "/toppings/lemon.jpg",
+      "Sliced Kiwi": "/toppings/kiwi.jpg",
+      "Sliced Apple": "/toppings/apple.jpg",
+      "Sliced Watermelon": "/toppings/watermelon.jpg",
+      "Blueberries": "/toppings/blueberry.jpg",
+      "Mulberries": "/toppings/mulberry.jpg",
+      "Sliced Dragon Fruit": "/toppings/dragonfruit.jpg",
+      "Sliced Red Dragon Fruit": "/toppings/dragonfruit-red.jpg",
+      "Pomegranate Arils": "/toppings/pomegranate.jpg",
+      "Cocoa Crunch": "/toppings/cocoa-crunch.png",
+      "Honey Stars Cereal": "/toppings/honey-stars.png",
+      "Sliced Almonds": "/toppings/sliced-almonds.png"
+    }
+  },
+  {
+    "key": "PRICE_TIERS",
+    "label": "ตารางราคา",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "emoji": "🥤",
+        "labelTh": "เมนูธรรมดา",
+        "labelEn": "Regular Drinks",
+        "price": "เริ่มต้น 30฿"
+      },
+      {
+        "emoji": "🥛",
+        "labelTh": "เมนูนม",
+        "labelEn": "Milk Drinks",
+        "price": "35–40฿"
+      },
+      {
+        "emoji": "🍓",
+        "labelTh": "สมูทตี้",
+        "labelEn": "Smoothies",
+        "price": "45 / 50 / 60฿",
+        "note": "ตามชนิดและต้นทุนวัตถุดิบ"
+      },
+      {
+        "emoji": "🥑",
+        "labelTh": "อะโวคาโดปั่น",
+        "labelEn": "Avocado Smoothie",
+        "price": "50฿"
+      },
+      {
+        "emoji": "🌿",
+        "labelTh": "น้ำสมุนไพรโฮมเมด",
+        "labelEn": "Homemade Herbal Drinks",
+        "price": "25฿"
+      },
+      {
+        "emoji": "🧊",
+        "labelTh": "น้ำสมุนไพรปั่น",
+        "labelEn": "Blended Herbal Drinks",
+        "price": "30฿"
+      },
+      {
+        "emoji": "🥥",
+        "labelTh": "เพิ่มเนื้อผลไม้ / ท็อปปิ้ง",
+        "labelEn": "Extra Fruit / Toppings",
+        "price": "+5 / +10฿",
+        "note": "ต่ออย่าง"
+      }
+    ]
+  },
+  {
+    "key": "HOMEMADE_BOTTLED",
+    "label": "สมุนไพรแบบขวด",
+    "group": "สมุนไพร",
+    "value": [
+      {
+        "emoji": "🌼",
+        "nameTh": "น้ำเก๊กฮวย",
+        "nameEn": "Chrysanthemum Tea",
+        "price": 25
+      },
+      {
+        "emoji": "🌺",
+        "nameTh": "น้ำกระเจี๊ยบ",
+        "nameEn": "Roselle Juice",
+        "price": 25,
+        "soldOut": true
+      },
+      {
+        "emoji": "🦋",
+        "nameTh": "น้ำอัญชันมะนาว",
+        "nameEn": "Butterfly Pea Lemonade",
+        "price": 25
+      },
+      {
+        "emoji": "🌿",
+        "nameTh": "น้ำใบเตย",
+        "nameEn": "Pandan Drink",
+        "price": 25
+      },
+      {
+        "emoji": "❤️",
+        "nameTh": "น้ำมะม่วงหาวมะนาวโห่",
+        "nameEn": "Karonda Juice",
+        "price": 25
+      },
+      {
+        "emoji": "🥭",
+        "nameTh": "น้ำเสาวรส",
+        "nameEn": "Passion Fruit Juice",
+        "price": 25
+      },
+      {
+        "emoji": "🍋",
+        "nameTh": "มะนาวน้ำผึ้ง",
+        "nameEn": "Honey Lemon Drink",
+        "price": 25
+      },
+      {
+        "emoji": "🖤",
+        "nameTh": "น้ำเฉาก๊วย",
+        "nameEn": "Grass Jelly Drink",
+        "price": 25
+      },
+      {
+        "emoji": "🌰",
+        "nameTh": "น้ำลำไย",
+        "nameEn": "Longan Drink",
+        "price": 25
+      },
+      {
+        "emoji": "🥤",
+        "nameTh": "น้ำลำไยพร้อมเนื้อ",
+        "nameEn": "Longan Drink with Pulp",
+        "price": 30
+      },
+      {
+        "emoji": "🌳",
+        "nameTh": "น้ำมะตูม",
+        "nameEn": "Bael Fruit Drink",
+        "price": 25
+      },
+      {
+        "emoji": "🫚",
+        "nameTh": "น้ำขิง",
+        "nameEn": "Ginger Drink",
+        "price": 25
+      },
+      {
+        "emoji": "🌿",
+        "nameTh": "น้ำใบบัวบก",
+        "nameEn": "Centella Juice",
+        "price": 25
+      }
+    ]
+  },
+  {
+    "key": "HOMEMADE_BLENDED",
+    "label": "สมุนไพรแบบปั่น",
+    "group": "สมุนไพร",
+    "value": [
+      {
+        "emoji": "🥭",
+        "nameTh": "น้ำเสาวรสปั่น",
+        "nameEn": "Blended Passion Fruit",
+        "price": 30
+      },
+      {
+        "emoji": "❤️",
+        "nameTh": "น้ำมะม่วงหาวมะนาวโห่ปั่น",
+        "nameEn": "Blended Karonda",
+        "price": 30
+      },
+      {
+        "emoji": "🍋",
+        "nameTh": "น้ำมะนาวน้ำผึ้งปั่น",
+        "nameEn": "Blended Honey Lemon",
+        "price": 30
+      },
+      {
+        "emoji": "🌰",
+        "nameTh": "น้ำลำไยปั่น",
+        "nameEn": "Blended Longan",
+        "price": 30
+      }
+    ]
+  },
+  {
+    "key": "HOMEMADE_SWEETNESS",
+    "label": "ระดับความหวานสมุนไพร",
+    "group": "สมุนไพร",
+    "value": [
+      {
+        "th": "หวานปกติ",
+        "en": "Regular Sweet"
+      },
+      {
+        "th": "ไม่หวาน",
+        "en": "No Added Sugar"
+      }
+    ]
+  },
+  {
+    "key": "HOMEMADE_PRICE_SUMMARY",
+    "label": "สรุปราคาสมุนไพร",
+    "group": "สมุนไพร",
+    "value": [
+      {
+        "label": "น้ำโฮมเมดทั่วไป",
+        "price": "25 บาท"
+      },
+      {
+        "label": "น้ำลำไย + เนื้อลำไย",
+        "price": "30 บาท"
+      },
+      {
+        "label": "น้ำสมุนไพร/ผลไม้ปั่น",
+        "price": "เริ่ม 30 บาท"
+      },
+      {
+        "label": "เพิ่มท็อปปิ้ง",
+        "price": "+5 / +10 บาท"
+      }
+    ]
+  },
+  {
+    "key": "HOMEMADE_NOTE",
+    "label": "หมายเหตุสมุนไพร",
+    "group": "สมุนไพร",
+    "value": {
+      "th": "น้ำโฮมเมดของทางร้านทำสดใหม่เป็นรอบ ๆ เมนูจึงหมุนเวียนแตกต่างกันในแต่ละวัน และอาจมีบางรายการที่ไม่มีจำหน่ายในวันนั้น",
+      "en": "Our homemade drinks are freshly prepared in small batches. Available flavors may vary from day to day and some items may not be available every day."
+    }
+  },
+  {
+    "key": "SODA_MODES",
+    "label": "รูปแบบน้ำอัดลม",
+    "group": "น้ำอัดลม",
+    "value": [
+      {
+        "id": "regular",
+        "nameTh": "อิตาเลียนโซดาปกติ",
+        "nameEn": "Classic Italian Soda",
+        "emoji": "🥤",
+        "desc": "ร้านผสมไซรัปให้เรียบร้อย พร้อมดื่มทันที",
+        "extra": 0
+      },
+      {
+        "id": "diy",
+        "nameTh": "ซ่าผสมเอง",
+        "nameEn": "DIY Italian Soda",
+        "emoji": "🧪",
+        "desc": "โซดา + น้ำแข็งในแก้ว · ไซรัปที่เลือกแยกใส่หลอดสลิง กด/หยดเองตามใจ",
+        "extra": 10,
+        "badge": "ผสมเอง"
+      },
+      {
+        "id": "mystery",
+        "nameTh": "ซ่ามิกซ์กับฟ่าง",
+        "nameEn": "Fang's Mystery Italian Soda",
+        "emoji": "🫧",
+        "desc": "ฟ่างสุ่มหลอดสลิงให้ 1 ใน 5 สูตร (ผสม 2–5 รส) · ไม่บอกรสจนกว่าจะได้ของ",
+        "extra": 15,
+        "badge": "สุ่ม 🎲"
+      }
+    ]
+  },
+  {
+    "key": "SODA_SYRUPS",
+    "label": "ไซรัปน้ำอัดลม",
+    "group": "น้ำอัดลม",
+    "value": [
+      {
+        "id": "strawberry",
+        "label": "สตรอว์เบอร์รี",
+        "labelEn": "Strawberry",
+        "emoji": "🍓",
+        "color": "#f0507f"
+      },
+      {
+        "id": "grape",
+        "label": "องุ่น",
+        "labelEn": "Grape",
+        "emoji": "🍇",
+        "color": "#7c3fc4"
+      },
+      {
+        "id": "mango",
+        "label": "มะม่วง",
+        "labelEn": "Mango",
+        "emoji": "🥭",
+        "color": "#f5b32d"
+      },
+      {
+        "id": "peach",
+        "label": "พีช",
+        "labelEn": "Peach",
+        "emoji": "🍑",
+        "color": "#ff9c7a"
+      },
+      {
+        "id": "kiwi",
+        "label": "กีวี",
+        "labelEn": "Kiwi",
+        "emoji": "🥝",
+        "color": "#7cc244"
+      },
+      {
+        "id": "blueberry",
+        "label": "บลูเบอร์รี",
+        "labelEn": "Blueberry",
+        "emoji": "🫐",
+        "color": "#4a5fd0"
+      },
+      {
+        "id": "pineapple",
+        "label": "สับปะรด",
+        "labelEn": "Pineapple",
+        "emoji": "🍍",
+        "color": "#f2d130"
+      },
+      {
+        "id": "passionfruit",
+        "label": "เสาวรส",
+        "labelEn": "Passion Fruit",
+        "emoji": "🍈",
+        "color": "#e89b2c"
+      },
+      {
+        "id": "lychee",
+        "label": "ลิ้นจี่",
+        "labelEn": "Lychee",
+        "emoji": "🌸",
+        "color": "#f3a6c8"
+      },
+      {
+        "id": "apple",
+        "label": "แอปเปิล",
+        "labelEn": "Apple",
+        "emoji": "🍏",
+        "color": "#8fd35a"
+      },
+      {
+        "id": "lime",
+        "label": "มะนาว",
+        "labelEn": "Lime",
+        "emoji": "🍋",
+        "color": "#c9e34a"
+      },
+      {
+        "id": "honey-lemon",
+        "label": "น้ำผึ้งมะนาว",
+        "labelEn": "Honey Lemon",
+        "emoji": "🍯",
+        "color": "#f4c542"
+      },
+      {
+        "id": "red",
+        "label": "แดง (สละ)",
+        "labelEn": "Red (Sala)",
+        "emoji": "❤️",
+        "color": "#e8333f"
+      },
+      {
+        "id": "green",
+        "label": "เขียว (ครีมโซดา)",
+        "labelEn": "Green (Cream Soda)",
+        "emoji": "💚",
+        "color": "#3ecf8e"
+      }
+    ]
+  },
+  {
+    "key": "SODA_DIY_MAX",
+    "label": "จำนวนไซรัปสูงสุด",
+    "group": "น้ำอัดลม",
+    "value": 3
+  },
+  {
+    "key": "SODA_MYSTERY",
+    "label": "สูตรสุ่มน้ำอัดลม",
+    "group": "น้ำอัดลม",
+    "value": {
+      "tubes": 5,
+      "secret": 1,
+      "taglines": [
+        "5 สูตร 5 ความลับ สุ่มให้ 1 หลอด 💜",
+        "ไม่บอกรสชาติ ให้ฟ่างเป็นคนสุ่มให้!",
+        "และใน 5 หลอด...มี 1 หลอดเป็น SECRET 👀✨"
+      ],
+      "chips": [
+        "🎲 สุ่ม 1 ใน 5 สูตร",
+        "🤫 มี 1 สูตร SECRET!",
+        "🧪 ไซรัปผสม 2–5 รส"
+      ],
+      "question": "วันนี้ฟ่างจะสุ่มรสอะไรให้คุณนะ?"
+    }
+  },
+  {
+    "key": "STICKY_BASES",
+    "label": "เบสนมเหนียว",
+    "group": "นมเหนียว",
+    "value": [
+      {
+        "id": "thaitea",
+        "nameTh": "ชาไทย",
+        "nameEn": "Thai Tea",
+        "price": 0,
+        "emoji": "🧋",
+        "palette": {
+          "foam": "#fff0df",
+          "top": "#f0a962",
+          "bottom": "#cf6f26"
+        }
+      },
+      {
+        "id": "cocoa",
+        "nameTh": "โกโก้",
+        "nameEn": "Cocoa",
+        "price": 0,
+        "emoji": "🍫",
+        "palette": {
+          "foam": "#f4e9e2",
+          "top": "#a8735a",
+          "bottom": "#5c3a2a"
+        }
+      },
+      {
+        "id": "greentea",
+        "nameTh": "ชาเขียว",
+        "nameEn": "Green Tea",
+        "price": 0,
+        "emoji": "🍵",
+        "palette": {
+          "foam": "#f1f7e8",
+          "top": "#a8ce7a",
+          "bottom": "#5f9a3f"
+        }
+      },
+      {
+        "id": "pinkmilk",
+        "nameTh": "นมชมพู",
+        "nameEn": "Pink Milk",
+        "price": 0,
+        "emoji": "🌸",
+        "palette": {
+          "foam": "#fff5f9",
+          "top": "#ffc2d8",
+          "bottom": "#f38bb1"
+        }
+      },
+      {
+        "id": "milo",
+        "nameTh": "ไมโล",
+        "nameEn": "Milo",
+        "price": 0,
+        "emoji": "🥛",
+        "palette": {
+          "foam": "#f5ece4",
+          "top": "#b8865e",
+          "bottom": "#6b4a30"
+        }
+      },
+      {
+        "id": "ovaltine",
+        "nameTh": "โอวัลติน",
+        "nameEn": "Ovaltine",
+        "price": 0,
+        "emoji": "🥛",
+        "palette": {
+          "foam": "#f5ede3",
+          "top": "#c4a37a",
+          "bottom": "#7d5a3a"
+        }
+      },
+      {
+        "id": "milk",
+        "nameTh": "นมสด",
+        "nameEn": "Fresh Milk",
+        "price": 0,
+        "emoji": "🥛",
+        "palette": {
+          "foam": "#fffaf0",
+          "top": "#fff4e4",
+          "bottom": "#f3d9b4"
+        }
+      }
+    ]
+  },
+  {
+    "key": "STICKY_FLAVORS",
+    "label": "รสนมเหนียว",
+    "group": "นมเหนียว",
+    "value": [
+      {
+        "id": "milk",
+        "nameTh": "นมเหนียวนมสด",
+        "nameEn": "Fresh Milk Sticky Cream",
+        "price": 0,
+        "emoji": "🥛",
+        "color": "#f7e7c8"
+      },
+      {
+        "id": "thaitea",
+        "nameTh": "นมเหนียวชาไทย",
+        "nameEn": "Thai Tea Sticky Cream",
+        "price": 0,
+        "emoji": "🧋",
+        "color": "#e8a35c"
+      },
+      {
+        "id": "pinkmilk",
+        "nameTh": "นมเหนียวนมชมพู",
+        "nameEn": "Pink Milk Sticky Cream",
+        "price": 0,
+        "emoji": "🌸",
+        "color": "#f7b8cf"
+      },
+      {
+        "id": "greentea",
+        "nameTh": "นมเหนียวชาเขียว",
+        "nameEn": "Green Tea Sticky Cream",
+        "price": 0,
+        "emoji": "🍵",
+        "color": "#9cc47a"
+      },
+      {
+        "id": "cocoa",
+        "nameTh": "นมเหนียวโกโก้",
+        "nameEn": "Cocoa Sticky Cream",
+        "price": 0,
+        "emoji": "🍫",
+        "color": "#8a5a3c"
+      },
+      {
+        "id": "taro",
+        "nameTh": "นมเหนียวเผือกหอม",
+        "nameEn": "Taro Sticky Cream",
+        "price": 0,
+        "emoji": "🍠",
+        "color": "#b795d8"
+      }
+    ]
+  },
+  {
+    "key": "STICKY_PACKAGES",
+    "label": "แพ็กเกจนมเหนียว",
+    "group": "นมเหนียว",
+    "value": [
+      {
+        "id": "milkOnly",
+        "nameTh": "นมเหนียวอย่างเดียว",
+        "nameEn": "Sticky Milk",
+        "emoji": "🥛",
+        "price": 20,
+        "unit": "แก้ว",
+        "desc": "นมเหนียวเนื้อข้น หนึบหนับ หอมหวาน กินเพลิน",
+        "needFlavor": true,
+        "needDrink": false
+      },
+      {
+        "id": "crackerOnly",
+        "nameTh": "แครกเกอร์",
+        "nameEn": "Crackers",
+        "emoji": "🍪",
+        "price": 20,
+        "unit": "แก้ว",
+        "desc": "แครกเกอร์กรอบ ๆ กินเล่นเพลิน หรือเอาไว้กินคู่กับนมเหนียว",
+        "needFlavor": false,
+        "needDrink": false
+      },
+      {
+        "id": "drinkMilk",
+        "nameTh": "น้ำ + นมเหนียว",
+        "nameEn": "Drink + Sticky Milk",
+        "emoji": "🥤🥛",
+        "price": 30,
+        "unit": "แก้ว",
+        "desc": "เลือกเครื่องดื่มที่ชอบ แล้วเพิ่มนมเหนียวราดด้านบน",
+        "needFlavor": true,
+        "needDrink": true
+      },
+      {
+        "id": "milkCracker",
+        "nameTh": "นมเหนียว + แครกเกอร์",
+        "nameEn": "Sticky Milk + Crackers",
+        "emoji": "🍪🥛",
+        "price": 30,
+        "unit": "ชุด",
+        "desc": "นมเหนียวเนื้อข้นคู่กับแครกเกอร์กรอบ ๆ จะกินคู่กัน หรือแยกไว้ผสมเองก็ได้ 💜",
+        "needFlavor": true,
+        "needDrink": false
+      }
+    ]
+  },
+  {
+    "key": "STICKY_SERVE",
+    "label": "วิธีเสิร์ฟนมเหนียว",
+    "group": "นมเหนียว",
+    "value": [
+      {
+        "id": "together",
+        "label": "🍪 กินคู่กัน",
+        "desc": "จัดมาพร้อมกิน"
+      },
+      {
+        "id": "separate",
+        "label": "📦 แยกไว้ผสมเอง",
+        "desc": "นมเหนียวใส่กระปุก + แครกเกอร์ใส่แก้วมีฝา ไม่ผสม"
+      }
+    ]
+  },
+  {
+    "key": "STICKY_SEPARATE_NOTE",
+    "label": "ข้อความชุดแยกนมเหนียว",
+    "group": "นมเหนียว",
+    "value": {
+      "title": "🍪 นมเหนียวแบบแยก — เอาไปมิกซ์เองที่บ้านได้เลย!",
+      "th": "สำหรับคนที่อยากสนุกกับการจัดเมนูเอง เราจะแยก นมเหนียวใส่กระปุกเล็ก และ แครกเกอร์ใส่ภาชนะมีฝาปิด ไม่ผสมรวมกัน เพื่อให้ลูกค้านำกลับไปเท ราด หรือกินคู่กันเองได้ตามใจ 💜✨",
+      "points": [
+        "🫙 นมเหนียว → กระปุกเล็กปิดฝาสนิท (เลือกได้หลายรส)",
+        "🍪 แครกเกอร์ → แก้วใสมีฝาปิด ยังกรอบ สะอาด น่ากิน",
+        "🚫 แยกบรรจุ ไม่ผสมกัน"
+      ]
+    }
+  },
+  {
+    "key": "STICKY_EXAMPLES",
+    "label": "ตัวอย่างนมเหนียว",
+    "group": "นมเหนียว",
+    "value": [
+      {
+        "base": "thaitea",
+        "flavor": "milk",
+        "desc": "ชาไทยหอม ๆ ราดนมเหนียวนมสดนุ่มละมุน"
+      },
+      {
+        "base": "cocoa",
+        "flavor": "greentea",
+        "desc": "โกโก้เข้ม ตัดด้วยนมเหนียวชาเขียวหอม"
+      },
+      {
+        "base": null,
+        "flavor": "cocoa",
+        "cracker": true,
+        "desc": "ไม่ใส่น้ำ — แครกเกอร์กรอบ ๆ จิ้มนมเหนียวโกโก้เข้มข้น"
+      },
+      {
+        "base": null,
+        "flavor": "thaitea",
+        "cracker": true,
+        "desc": "ไม่ใส่น้ำ — แครกเกอร์กรอบคู่นมเหนียวชาไทยหอมหวาน"
+      },
+      {
+        "base": "milk",
+        "flavor": "thaitea",
+        "desc": "นมสดละมุน ราดนมเหนียวชาไทยเข้ม"
+      },
+      {
+        "base": "milk",
+        "flavor": "greentea",
+        "desc": "นมสดเย็น ๆ ราดนมเหนียวชาเขียวหอมละมุน",
+        "image": "/menu/sticky-milk-greentea.webp"
+      }
+    ]
+  },
+  {
+    "key": "STICKY_NOTE",
+    "label": "หมายเหตุนมเหนียว",
+    "group": "นมเหนียว",
+    "value": {
+      "title": "💜 อยากกินแบบไหน เลือกได้เลย!",
+      "th": "นมเหนียวอย่างเดียว / แครกเกอร์อย่างเดียว / น้ำ + นมเหนียว / นมเหนียว + แครกเกอร์ — ไม่จำเป็นต้องสั่งเครื่องดื่มทุกแบบ ✨",
+      "en": "Sticky milk alone, crackers alone, drink + sticky milk, or sticky milk + crackers — no drink required."
+    }
+  },
+  {
+    "key": "WHIP_BASE_PRICE",
+    "label": "ราคาวิปพื้นฐาน",
+    "group": "วิปครีม",
+    "value": 20
+  },
+  {
+    "key": "WHIP_FRUIT_PRICE",
+    "label": "ราคาเพิ่มผลไม้",
+    "group": "วิปครีม",
+    "value": 10
+  },
+  {
+    "key": "WHIP_TOPPING_GROUPS",
+    "label": "ท็อปปิ้งวิปครีม",
+    "group": "วิปครีม",
+    "value": [
+      {
+        "id": "tapioca",
+        "emoji": "🟤",
+        "titleTh": "ไข่มุกแป้งมันสำปะหลัง",
+        "titleEn": "Tapioca Pearls",
+        "items": [
+          {
+            "nameTh": "ไข่มุกดำ / คลาสสิก",
+            "nameEn": "Classic Black Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกสีทอง",
+            "nameEn": "Golden Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกสีมรกต",
+            "nameEn": "Emerald Tapioca Pearls",
+            "price": 5
+          },
+          {
+            "nameTh": "ไข่มุกบราวน์ชูการ์",
+            "nameEn": "Brown Sugar Tapioca Pearls",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "popping",
+        "emoji": "🟣",
+        "titleTh": "ไข่มุกป๊อป",
+        "titleEn": "Popping Boba",
+        "items": [
+          {
+            "nameTh": "ป๊อปสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ป๊อปลิ้นจี่",
+            "nameEn": "Lychee Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ป๊อปมะม่วง",
+            "nameEn": "Mango Popping Boba",
+            "price": 10
+          },
+          {
+            "nameTh": "ป๊อปเสาวรส",
+            "nameEn": "Passion Fruit Popping Boba",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "konjac",
+        "emoji": "🟢",
+        "titleTh": "บุกและคริสตัล",
+        "titleEn": "Konjac & Crystal Jelly",
+        "items": [
+          {
+            "nameTh": "บุกใส / บุกเพชร",
+            "nameEn": "Crystal Konjac Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "บุกบราวน์ชูการ์",
+            "nameEn": "Brown Sugar Konjac Jelly",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "jelly",
+        "emoji": "🍮",
+        "titleTh": "เยลลี่และวุ้น",
+        "titleEn": "Jelly",
+        "items": [
+          {
+            "nameTh": "วุ้นมะพร้าว",
+            "nameEn": "Coconut Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "วุ้นคาราเมล",
+            "nameEn": "Caramel Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เฉาก๊วย",
+            "nameEn": "Grass Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่องุ่น",
+            "nameEn": "Grape Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่สตรอว์เบอร์รี",
+            "nameEn": "Strawberry Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นแอปเปิล",
+            "nameEn": "Apple Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นบลูฮาวาย",
+            "nameEn": "Blue Hawaii Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "ฟรุตสลัด กลิ่นสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Fruit Cocktail Jelly",
+            "price": 5
+          },
+          {
+            "nameTh": "เยลลี่น้องทะเล",
+            "nameEn": "Ocean Animal Jelly",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "id": "premium",
+        "emoji": "🍨",
+        "titleTh": "ท็อปปิ้งพรีเมียม",
+        "titleEn": "Premium",
+        "items": [
+          {
+            "nameTh": "พุดดิ้ง",
+            "nameEn": "Pudding",
+            "price": 10
+          },
+          {
+            "nameTh": "เต้าฮวยนมสด",
+            "nameEn": "Fresh Milk Tofu Pudding",
+            "price": 10
+          },
+          {
+            "nameTh": "ครีมชีส",
+            "nameEn": "Cream Cheese",
+            "price": 10
+          },
+          {
+            "nameTh": "วิปครีม",
+            "nameEn": "Whipped Cream",
+            "price": 10
+          }
+        ]
+      },
+      {
+        "id": "sauces",
+        "emoji": "🍫",
+        "titleTh": "ซอส (ฟรี! รวมในวิปครีม)",
+        "titleEn": "Sauces",
+        "items": [
+          {
+            "nameTh": "ซอสช็อกโกแลต",
+            "nameEn": "Chocolate Sauce",
+            "price": 0
+          },
+          {
+            "nameTh": "ซอสสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Sauce",
+            "price": 0
+          },
+          {
+            "nameTh": "ซอสคาราเมล",
+            "nameEn": "Caramel Sauce",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "WHIP_FRUITS",
+    "label": "ผลไม้วิปครีม",
+    "group": "วิปครีม",
+    "value": [
+      {
+        "nameTh": "องุ่นไร้เม็ด",
+        "nameEn": "Seedless Grapes"
+      },
+      {
+        "nameTh": "องุ่นไชน์มัสแคท",
+        "nameEn": "Shine Muscat Grapes"
+      },
+      {
+        "nameTh": "สตรอว์เบอร์รี",
+        "nameEn": "Strawberry"
+      },
+      {
+        "nameTh": "บลูเบอร์รี",
+        "nameEn": "Blueberry",
+        "soldOut": true
+      },
+      {
+        "nameTh": "ส้ม",
+        "nameEn": "Orange"
+      },
+      {
+        "nameTh": "เลมอนเชื่อม",
+        "nameEn": "Candied Lemon"
+      },
+      {
+        "nameTh": "องุ่นนิ้วมือแม่มด",
+        "nameEn": "Witch Finger Grapes",
+        "soldOut": true
+      },
+      {
+        "nameTh": "กีวี",
+        "nameEn": "Kiwi"
+      },
+      {
+        "nameTh": "ผลไม้รวม",
+        "nameEn": "Mixed Fruits"
+      }
+    ]
+  },
+  {
+    "key": "WHIP_NOTE",
+    "label": "หมายเหตุวิปครีม",
+    "group": "วิปครีม",
+    "value": {
+      "th": "🍓 ผลไม้สดมีให้เลือกแตกต่างกันในแต่ละวัน กรุณาตรวจสอบรายการผลไม้ที่มีในวันนี้ก่อนสั่ง",
+      "en": "Fresh fruit availability varies by day. Please check today's available fruits before ordering."
+    }
+  },
+  {
+    "key": "SOFT_DRINKS",
+    "label": "น้ำอัดลมแบบขวด",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "id": "coke",
+        "nameTh": "โค้ก",
+        "nameEn": "Coca-Cola",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสโคล่าหอมเข้ม ซ่า สดชื่น มีความหวานกลมกล่อม",
+        "palette": {
+          "foam": "#e8ddd5",
+          "top": "#8a4a3a",
+          "bottom": "#3a1a14"
+        }
+      },
+      {
+        "id": "coke-zero",
+        "nameTh": "โค้กไม่มีน้ำตาล",
+        "nameEn": "Coca-Cola Zero Sugar",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสโคล่าเข้ม หอมซ่า สดชื่น หวานน้อยโดยไม่มีน้ำตาล",
+        "palette": {
+          "foam": "#dcdcdc",
+          "top": "#3a3a3a",
+          "bottom": "#141414"
+        }
+      },
+      {
+        "id": "fanta-orange",
+        "nameTh": "แฟนต้าส้ม",
+        "nameEn": "Fanta Orange",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสส้มหวานอมเปรี้ยว หอมกลิ่นส้ม ซ่าชื่นใจ",
+        "palette": {
+          "foam": "#fff1e0",
+          "top": "#ff9a3c",
+          "bottom": "#e2620f"
+        }
+      },
+      {
+        "id": "fanta-strawberry",
+        "nameTh": "แฟนต้าแดง",
+        "nameEn": "Fanta Strawberry",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "หวานหอมกลิ่นสตรอว์เบอร์รี ซ่า สดชื่น ดื่มง่าย",
+        "palette": {
+          "foam": "#ffe9ee",
+          "top": "#ff6a86",
+          "bottom": "#d61e42"
+        }
+      },
+      {
+        "id": "fanta-blue",
+        "nameTh": "แฟนต้าสีฟ้า",
+        "nameEn": "Fanta Blue",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสชาติเปรี้ยว ๆ หวาน ๆ หอมกลิ่นบลูเบอร์รี ผสมผสานกับกลิ่นดอกไม้จากดอกชบา",
+        "palette": {
+          "foam": "#e6f3ff",
+          "top": "#5ab0f0",
+          "bottom": "#1f6fc4"
+        }
+      },
+      {
+        "id": "sprite",
+        "nameTh": "สไปรท์",
+        "nameEn": "Sprite",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสมะนาวเลมอน หอมสดชื่น เปรี้ยวหวาน ซ่าชื่นใจ",
+        "palette": {
+          "foam": "#eafdf0",
+          "top": "#7fd69a",
+          "bottom": "#2f9b57"
+        }
+      },
+      {
+        "id": "est-cola",
+        "nameTh": "เอสโคล่า",
+        "nameEn": "est Cola",
+        "price": 20,
+        "emoji": "🥤",
+        "desc": "รสโคล่าหอมหวาน ซ่ากำลังดี ดื่มแล้วสดชื่น",
+        "palette": {
+          "foam": "#e5dbe8",
+          "top": "#6a3f7a",
+          "bottom": "#331a3d"
+        }
+      }
+    ]
+  },
+  {
+    "key": "SNACK_GROUPS",
+    "label": "กลุ่มขนม",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "id": "cornflakes",
+        "titleTh": "คอนเฟลคกรุบกรอบ",
+        "titleEn": "Crunchy Cornflakes",
+        "emoji": "🥣",
+        "note": "ขนาด 80 กรัม / ถุง",
+        "items": [
+          {
+            "id": "cf-caramel",
+            "nameTh": "คอนเฟลคคาราเมลเนย",
+            "nameEn": "Caramel Butter Cornflakes",
+            "desc": "เคลือบคาราเมลหอมเนย + ลูกเกด + อัลมอนด์สไลด์",
+            "price": 39,
+            "emoji": "🍯",
+            "badge": "ขายดี"
+          },
+          {
+            "id": "cf-honey-caramel",
+            "nameTh": "คอนเฟลคคาราเมลน้ำผึ้ง",
+            "nameEn": "Honey Caramel Cornflakes",
+            "desc": "เคลือบคาราเมลหอมน้ำผึ้ง + ลูกเกด + อัลมอนด์สไลด์",
+            "price": 39,
+            "emoji": "🍯"
+          },
+          {
+            "id": "cf-dubai",
+            "nameTh": "คอนเฟลคช็อกโกแลตดูไบ",
+            "nameEn": "Dubai Chocolate Cornflakes",
+            "desc": "ช็อกโกแลตเข้มข้น + คูนาฟ่ากรอบ ๆ ดับเบิลครันช์",
+            "price": 59,
+            "emoji": "🍫",
+            "badge": "พิเศษ"
+          },
+          {
+            "id": "cf-salt",
+            "nameTh": "คอนเฟลครสเค็ม",
+            "nameEn": "Salted Cornflakes",
+            "desc": "รสเค็มหอมมัน กินเพลิน ฟีลป๊อปคอร์นรสเค็ม",
+            "price": 39,
+            "emoji": "🧂"
+          },
+          {
+            "id": "cf-tomyum",
+            "nameTh": "คอนเฟลครสต้มยำ",
+            "nameEn": "Tom Yum Cornflakes",
+            "desc": "หอมเครื่องต้มยำ เปรี้ยว เผ็ด เค็ม กินเล่นเพลิน",
+            "price": 39,
+            "emoji": "🌶️"
+          },
+          {
+            "id": "cf-mala",
+            "nameTh": "คอนเฟลครสหม่าล่า",
+            "nameEn": "Mala Cornflakes",
+            "desc": "หอมเครื่องเทศหม่าล่า เผ็ดชา เคี้ยวกรุบกรอบ",
+            "price": 39,
+            "emoji": "🌶️"
+          },
+          {
+            "id": "cf-greentea",
+            "nameTh": "คอนเฟลครสชาเขียว",
+            "nameEn": "Green Tea Cornflakes",
+            "desc": "หอมชาเขียว รสละมุน หวานพอดี",
+            "price": 39,
+            "emoji": "🍵"
+          },
+          {
+            "id": "cf-thaitea",
+            "nameTh": "คอนเฟลครสชาไทย",
+            "nameEn": "Thai Tea Cornflakes",
+            "desc": "หอมชาไทย รสหวานละมุน กรอบเคี้ยวเพลิน",
+            "price": 39,
+            "emoji": "🧋"
+          },
+          {
+            "id": "cf-cheese",
+            "nameTh": "คอนเฟลครสชีส",
+            "nameEn": "Cheese Cornflakes",
+            "desc": "หอมชีส รสเค็มมัน กรอบเพลิน",
+            "price": 39,
+            "emoji": "🧀"
+          },
+          {
+            "id": "cf-milkgrain",
+            "nameTh": "คอนเฟลครสครีมนมธัญพืช",
+            "nameEn": "Creamy Milk & Grain Cornflakes",
+            "desc": "หอมครีมนม รสหวานมัน ผสมธัญพืช เคี้ยวเพลิน",
+            "price": 39,
+            "emoji": "🥛"
+          },
+          {
+            "id": "cf-passion",
+            "nameTh": "คอนเฟลครสเสาวรส",
+            "nameEn": "Passion Fruit Cornflakes",
+            "desc": "เคลือบซอสเสาวรส หอมกลิ่นเสาวรส เปรี้ยวหวานสดชื่น",
+            "price": 39,
+            "emoji": "💛"
+          }
+        ]
+      },
+      {
+        "id": "fruit-cornflakes",
+        "titleTh": "คอนเฟลคผลไม้",
+        "titleEn": "Fruit Cornflakes",
+        "emoji": "🍓",
+        "note": "เพิ่มผลไม้อบแห้ง/แปรรูป · เพิ่มรสอื่นได้ในอนาคต",
+        "items": [
+          {
+            "id": "cf-mango",
+            "nameTh": "คอนเฟลคมะม่วงอบแห้ง",
+            "nameEn": "Dried Mango Cornflakes",
+            "desc": "คอนเฟลคกรุบกรอบ + มะม่วงอบแห้งเคี้ยวหนึบ ๆ",
+            "price": 39,
+            "oldPrice": 49,
+            "emoji": "🥭",
+            "badge": "โปรฯ"
+          },
+          {
+            "id": "cf-banana",
+            "nameTh": "คอนเฟลคกล้วยตาก",
+            "nameEn": "Dried Banana Cornflakes",
+            "desc": "คอนเฟลคกรุบกรอบ + กล้วยตากหอมหวาน เนื้อนุ่มหนึบ",
+            "price": 39,
+            "oldPrice": 49,
+            "emoji": "🍌",
+            "badge": "โปรฯ"
+          }
+        ]
+      },
+      {
+        "id": "bakery",
+        "titleTh": "ขนม & เบเกอรี่",
+        "titleEn": "Snacks & Bakery",
+        "emoji": "🍪",
+        "items": [
+          {
+            "id": "butter-corn",
+            "nameTh": "ข้าวโพดอบเนย",
+            "nameEn": "Buttered Corn",
+            "desc": "ข้าวโพดหวานอบเนยหอม ๆ กินเพลิน",
+            "price": 30,
+            "emoji": "🌽"
+          },
+          {
+            "id": "cookie",
+            "nameTh": "คุกกี้",
+            "nameEn": "Cookie",
+            "desc": "คุกกี้หอมเนย กรอบนอกนุ่มใน",
+            "price": 25,
+            "emoji": "🍪"
+          },
+          {
+            "id": "brownie",
+            "nameTh": "บราวนี่",
+            "nameEn": "Brownie",
+            "desc": "บราวนี่ช็อกโกแลตเข้มข้น เนื้อหนึบ",
+            "price": 35,
+            "emoji": "🍫"
+          },
+          {
+            "id": "cake",
+            "nameTh": "เค้ก/ขนมหวาน",
+            "nameEn": "Cake & Dessert",
+            "desc": "เค้กนุ่ม ๆ ขนมหวานประจำวัน",
+            "price": 45,
+            "emoji": "🍰"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "SANDWICH_GROUPS",
+    "label": "กลุ่มแซนด์วิช",
+    "group": "แคตตาล็อก",
+    "value": [
+      {
+        "id": "savory",
+        "titleTh": "แซนด์วิชไส้คาว",
+        "titleEn": "Savory Sandwiches",
+        "emoji": "🥪",
+        "items": [
+          {
+            "id": "sw-ham-cheese",
+            "nameTh": "แซนด์วิชแฮมชีส",
+            "nameEn": "Ham & Cheese Sandwich",
+            "desc": "แฮม + ชีสละมุน ในขนมปังนุ่ม",
+            "price": 49,
+            "emoji": "🥪",
+            "badge": "ขายดี"
+          },
+          {
+            "id": "sw-crab",
+            "nameTh": "แซนด์วิชปูอัด",
+            "nameEn": "Crab Stick Sandwich",
+            "desc": "ปูอัดผสมสลัดครีม รสกลมกล่อม",
+            "price": 49,
+            "emoji": "🦀"
+          },
+          {
+            "id": "sw-sausage",
+            "nameTh": "แซนด์วิชไส้กรอก",
+            "nameEn": "Sausage Sandwich",
+            "desc": "ไส้กรอกหมูรมควัน หอมอร่อย",
+            "price": 49,
+            "emoji": "🌭"
+          },
+          {
+            "id": "sw-tuna",
+            "nameTh": "แซนด์วิชทูน่า",
+            "nameEn": "Tuna Sandwich",
+            "desc": "ทูน่าผสมมายองเนส เนื้อแน่น",
+            "price": 49,
+            "emoji": "🐟"
+          },
+          {
+            "id": "sw-thai",
+            "nameTh": "แซนด์วิชโบราณ",
+            "nameEn": "Thai-Style Sandwich",
+            "desc": "แซนด์วิชสไตล์ไทยโบราณ รสคุ้นเคย",
+            "price": 45,
+            "emoji": "🥪"
+          }
+        ]
+      },
+      {
+        "id": "fruit-cream",
+        "titleTh": "แซนด์วิชผลไม้ครีมสด",
+        "titleEn": "Fresh Fruit & Cream",
+        "emoji": "🍓",
+        "note": "🍓 ผลไม้สดมีให้เลือกแตกต่างกันในแต่ละวัน ขึ้นอยู่กับความสดและวัตถุดิบที่มีในวันนั้น",
+        "noteEn": "Fresh fruit availability varies by day, depending on freshness and daily ingredients.",
+        "fruitList": [
+          "🍓 สตรอว์เบอร์รี",
+          "🍇 องุ่นไชน์มัสแคท",
+          "🥝 กีวี",
+          "🍌 กล้วย",
+          "🍊 ส้ม",
+          "🫐 บลูเบอร์รี"
+        ],
+        "items": [
+          {
+            "id": "sw-fruit-cream",
+            "nameTh": "แซนด์วิชผลไม้ครีมสด",
+            "nameEn": "Fresh Fruit & Cream Sandwich",
+            "desc": "ครีมสดนุ่ม + ผลไม้สดหมุนเวียนตามวัน",
+            "price": 59,
+            "emoji": "🍓",
+            "badge": "แนะนำ"
+          }
+        ]
+      },
+      {
+        "id": "jam",
+        "titleTh": "แซนด์วิชแยม",
+        "titleEn": "Jam Sandwiches",
+        "emoji": "🍯",
+        "items": [
+          {
+            "id": "sw-jam-strawberry",
+            "nameTh": "แซนด์วิชแยมสตรอว์เบอร์รี",
+            "nameEn": "Strawberry Jam",
+            "desc": "แยมสตรอว์เบอร์รีหวานอมเปรี้ยว",
+            "price": 35,
+            "emoji": "🍓"
+          },
+          {
+            "id": "sw-jam-orange",
+            "nameTh": "แซนด์วิชแยมส้ม",
+            "nameEn": "Orange Marmalade",
+            "desc": "แยมส้มหอม ๆ รสสดชื่น",
+            "price": 35,
+            "emoji": "🍊"
+          },
+          {
+            "id": "sw-jam-choco",
+            "nameTh": "แซนด์วิชแยมช็อกโกแลต",
+            "nameEn": "Chocolate Spread",
+            "desc": "ช็อกโกแลตสเปรดเข้มข้น",
+            "price": 35,
+            "emoji": "🍫"
+          },
+          {
+            "id": "sw-jam-banana",
+            "nameTh": "แซนด์วิชแยมกล้วย",
+            "nameEn": "Banana Spread",
+            "desc": "แยมกล้วยหอมหวาน",
+            "price": 35,
+            "emoji": "🍌"
+          },
+          {
+            "id": "sw-jam-pandan",
+            "nameTh": "แซนด์วิชใบเตยสังขยา",
+            "nameEn": "Pandan Custard",
+            "desc": "สังขยาใบเตยหอมละมุน",
+            "price": 35,
+            "emoji": "🌿"
+          },
+          {
+            "id": "sw-jam-thaitea",
+            "nameTh": "แซนด์วิชสังขยาชาไทย",
+            "nameEn": "Thai Tea Custard",
+            "desc": "สังขยาชาไทยหวานหอม",
+            "price": 35,
+            "emoji": "🧋"
+          },
+          {
+            "id": "sw-jam-blueberry",
+            "nameTh": "แซนด์วิชแยมบลูเบอร์รี",
+            "nameEn": "Blueberry Jam",
+            "desc": "แยมบลูเบอร์รีหวานอมเปรี้ยว",
+            "price": 35,
+            "emoji": "🫐"
+          },
+          {
+            "id": "sw-jam-butter",
+            "nameTh": "แซนด์วิชเนยนมน้ำตาล",
+            "nameEn": "Butter, Milk & Sugar",
+            "desc": "เนย + นมข้น + น้ำตาล คลาสสิก",
+            "price": 30,
+            "emoji": "🧈"
+          },
+          {
+            "id": "sw-jam-ovaltine",
+            "nameTh": "แซนด์วิชโอวัลติน",
+            "nameEn": "Ovaltine Spread",
+            "desc": "โอวัลตินสเปรดหอมมอลต์",
+            "price": 35,
+            "emoji": "🥛"
+          },
+          {
+            "id": "sw-jam-milo",
+            "nameTh": "แซนด์วิชไมโล",
+            "nameEn": "Milo Spread",
+            "desc": "ไมโลสเปรดเข้มข้น",
+            "price": 35,
+            "emoji": "🍫"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "PROMOTIONS",
+    "label": "โปรโมชั่นหน้าแรก",
+    "group": "โปรโมชั่น",
+    "value": [
+      {
+        "id": "delivery",
+        "title": "ส่งฟรี!",
+        "highlight": "เมื่อสั่งครบ 300.-",
+        "detail": "ส่งไวถึงมือ ปั่นสดไม่แยกชั้น",
+        "cta": "สั่งเลย",
+        "emoji": "🛵",
+        "theme": "cream"
+      },
+      {
+        "id": "month",
+        "title": "เมนูประจำเดือน 🍵",
+        "highlight": "มัทฉะนมสด 55",
+        "detail": "จากปกติ 65 พิเศษเดือนนี้เท่านั้น!",
+        "cta": "สั่งเลย",
+        "emoji": "🎀",
+        "theme": "grape"
+      },
+      {
+        "id": "bundle",
+        "title": "ซื้อ 5 แก้ว",
+        "highlight": "ลดทันที 10%",
+        "detail": "ชวนเพื่อนมาปั่น คุ้มกว่าเดิม",
+        "cta": "รับส่วนลด",
+        "emoji": "🎉",
+        "theme": "blossom"
+      }
+    ]
+  },
+  {
+    "key": "PROMO_CAMPAIGNS",
+    "label": "แคมเปญโปรโมชั่น",
+    "group": "โปรโมชั่น",
+    "value": [
+      {
+        "id": "free-boba",
+        "emoji": "🧋",
+        "titleTh": "ไข่มุกฟรี",
+        "titleEn": "Free Boba",
+        "ongoing": true,
+        "slogan": "เติมความหนึบให้แก้วโปรด! 🧋",
+        "points": [
+          "ฟรี! ไข่มุก 1 ท็อปปิ้ง / แก้ว",
+          "เลือกไข่มุกที่ร่วมรายการได้ 1 อย่าง"
+        ],
+        "theme": "special",
+        "activityTitle": "รับไข่มุกฟรี 1 อย่าง 🧋",
+        "activityDesc": [
+          "เติมความหนึบให้แก้วโปรด — รับไข่มุกฟรี 1 อย่าง สำหรับเครื่องดื่มที่ร่วมรายการ",
+          "🎁 ฟรี! ไข่มุก 1 ท็อปปิ้ง",
+          "🧋 เลือกไข่มุกที่ร่วมรายการได้ 1 อย่างต่อ 1 แก้ว"
+        ],
+        "reward": "ฟรีไข่มุก 1 อย่าง สำหรับเมนูที่ร่วมรายการ",
+        "conditions": [
+          "ฟรีไข่มุก 1 อย่าง / 1 แก้ว",
+          "เฉพาะเมนูที่ร่วมรายการ",
+          "ไม่สามารถเปลี่ยนเป็นเงินสดหรือส่วนลดได้",
+          "ท็อปปิ้งชนิดอื่นคิดราคาตามปกติ",
+          "โปรโมชั่นอาจสิ้นสุดหรือเปลี่ยนแปลงได้โดยไม่ต้องแจ้งล่วงหน้า"
+        ]
+      },
+      {
+        "id": "newyear",
+        "emoji": "🎆",
+        "titleTh": "ปีใหม่",
+        "titleEn": "New Year",
+        "month": 1,
+        "day": 1,
+        "slogan": "เริ่มปีใหม่สดชื่น 🎆",
+        "theme": "newyear"
+      },
+      {
+        "id": "valentine",
+        "emoji": "💕",
+        "titleTh": "วาเลนไทน์",
+        "titleEn": "Valentine's Day",
+        "month": 2,
+        "day": 14,
+        "slogan": "ปั่นรักให้หวาน 💕",
+        "points": [
+          "Strawberry Milk / Strawberry Smoothie",
+          "ซื้อคู่ 2 แก้ว ราคาพิเศษ",
+          "เพิ่มวิปครีม + Popping Boba ฟรี"
+        ],
+        "theme": "valentine"
+      },
+      {
+        "id": "chinese",
+        "emoji": "🧧",
+        "titleTh": "ตรุษจีน",
+        "titleEn": "Chinese New Year",
+        "month": 2,
+        "day": 17,
+        "slogan": "เฮง ๆ รับตรุษจีน 🧧",
+        "theme": "chinese"
+      },
+      {
+        "id": "songkran",
+        "emoji": "💦",
+        "titleTh": "สงกรานต์",
+        "titleEn": "Songkran",
+        "month": 4,
+        "day": 13,
+        "slogan": "ดับร้อนสงกรานต์ 💦",
+        "theme": "songkran"
+      },
+      {
+        "id": "mother",
+        "emoji": "👩‍👧",
+        "titleTh": "วันแม่",
+        "titleEn": "Mother's Day",
+        "month": 8,
+        "day": 12,
+        "slogan": "หวานใจแม่ 💐",
+        "points": [
+          "ซื้อเครื่องดื่ม 2 แก้ว ราคาพิเศษ",
+          "เมนูพิเศษสีฟ้า/ม่วง สำหรับวันแม่",
+          "แถมท็อปปิ้งฟรี 1 อย่าง"
+        ],
+        "theme": "mother"
+      },
+      {
+        "id": "halloween",
+        "emoji": "👻",
+        "titleTh": "ฮาโลวีน",
+        "titleEn": "Halloween",
+        "month": 10,
+        "day": 31,
+        "slogan": "Spooky Smoothie 👻",
+        "points": [
+          "เครื่องดื่มธีมสีม่วง / ดำ / ส้ม",
+          "แก้ว & สติกเกอร์ธีมฮาโลวีน",
+          "🎃 Halloween Photo Challenge — ลด 5 บาท!"
+        ],
+        "theme": "halloween",
+        "activityTitle": "Halloween Photo Challenge 🎃",
+        "activityDesc": [
+          "แต่งหน้า 👻 หรือแต่งตัว 🎃 ในธีมฮาโลวีน",
+          "ถ่ายรูปคู่กับเครื่องดื่มจากร้าน “ปั่นกับฟ่าง”",
+          "📸 โพสต์รูปลง Facebook / Instagram",
+          "✍️ ใส่แคปชั่นเกี่ยวกับ Halloween หรือเครื่องดื่มของร้าน",
+          "🏷️ แท็กเพจร้าน PunKubFang"
+        ],
+        "reward": "รับส่วนลดทันที 5 บาท! เมื่อแสดงโพสต์ให้ทางร้านตรวจสอบก่อนชำระเงิน",
+        "steps": [
+          "แต่งหน้า หรือแต่งตัวในธีม Halloween",
+          "ซื้อเครื่องดื่มจากร้าน “ปั่นกับฟ่าง”",
+          "ถ่ายรูปคู่กับเครื่องดื่ม",
+          "โพสต์รูปแบบสาธารณะ",
+          "ใส่แคปชั่น",
+          "แท็กเพจ PunKubFang",
+          "แสดงโพสต์ให้ทางร้านตรวจสอบ",
+          "รับส่วนลด 5 บาทต่อ 1 ออเดอร์"
+        ],
+        "conditions": [
+          "โปรโมชั่นเฉพาะวันที่ 31 ตุลาคมเท่านั้น",
+          "1 สิทธิ์ / 1 ออเดอร์",
+          "ต้องเป็นโพสต์ใหม่ที่สร้างในวันที่จัดกิจกรรม",
+          "ขอสงวนสิทธิ์ในการตรวจสอบโพสต์ก่อนใช้สิทธิ์",
+          "ไม่สามารถใช้ร่วมกับโปรโมชั่นอื่นได้"
+        ],
+        "sampleCaption": "🎃 Halloween นี้ไม่หลอน แต่หวานมาก! 👻🧋\nวันนี้มาเติมความสดชื่นกับ “ปั่นกับฟ่าง” 💜\n#Halloween #PunKubFang #ปั่นกับฟ่าง"
+      },
+      {
+        "id": "loykrathong",
+        "emoji": "🪷",
+        "titleTh": "ลอยกระทง ลอยใจ",
+        "titleEn": "Loy Krathong",
+        "month": 11,
+        "day": 24,
+        "slogan": "คืนนี้อย่าลอยแค่กระทง ลอยความอร่อยไปด้วยกัน! 🪷💜",
+        "points": [
+          "🥤 ซื้อเครื่องดื่ม 1 แก้ว รับท็อปปิ้งฟรี 1 อย่าง",
+          "📸 ถ่ายรูป + แชร์ Tag ร้าน รับคูปองส่วนลด 5 บาทครั้งถัดไป"
+        ],
+        "theme": "loykrathong",
+        "activityTitle": "ลอยกระทงนี้ แชะแล้วแชร์กับฟ่าง 📸",
+        "activityDesc": [
+          "🪷 ลอยกระทง ลอยใจ กับปั่นกับฟ่าง — คืนนี้อย่าลอยแค่กระทง ลอยความอร่อยไปด้วยกัน!",
+          "🥤 ซื้อเครื่องดื่ม 1 แก้ว → 🎁 รับท็อปปิ้งฟรีทันที 1 อย่าง",
+          "📸 ถ่ายรูปแก้วโปรดของคุณ แล้วร่วมสนุกกับเรา — Sip • Snap • Share • Repeat ✨"
+        ],
+        "reward": "ท็อปปิ้งฟรี 1 อย่างทุกแก้ว + 🎟️ คูปองส่วนลด 5 บาทครั้งถัดไป เมื่อถ่ายรูป & แชร์",
+        "steps": [
+          "🥤 สั่งเครื่องดื่มที่ร่วมรายการ รับท็อปปิ้งฟรี 1 อย่างทันที",
+          "📸 ถ่ายรูปคู่กับแก้วปั่นกับฟ่าง",
+          "📤 โพสต์ลง Facebook หรือ Instagram แบบสาธารณะ พร้อม Tag PunKubFang",
+          "🎟️ แสดงโพสต์ให้พนักงาน รับคูปองส่วนลด 5 บาทสำหรับครั้งถัดไป"
+        ],
+        "conditions": [
+          "ท็อปปิ้งฟรี 1 อย่าง / 1 แก้ว (เฉพาะเมนูที่ร่วมรายการ)",
+          "โพสต์ต้องตั้งค่าเป็นสาธารณะ และ Tag ร้าน PunKubFang",
+          "คูปองส่วนลด 5 บาท ใช้ได้ในการซื้อครั้งถัดไป · 1 สิทธิ์ต่อ 1 โพสต์",
+          "ไม่สามารถเปลี่ยนเป็นเงินสด และใช้ร่วมกับโปรโมชั่นอื่นไม่ได้",
+          "เฉพาะช่วงเทศกาลลอยกระทงเท่านั้น · เงื่อนไขอาจเปลี่ยนแปลงได้โดยไม่ต้องแจ้งล่วงหน้า"
+        ],
+        "sampleCaption": "ลอยกระทงนี้ ขอลอยความอร่อยกับ @PunKubFang 🪷💜 #ปั่นกับฟ่าง #ลอยกระทง #แชะแล้วแชร์กับฟ่าง"
+      },
+      {
+        "id": "father",
+        "emoji": "👨‍👧‍👦",
+        "titleTh": "แก้วนี้ให้พ่อ",
+        "titleEn": "Father's Day",
+        "month": 12,
+        "day": 5,
+        "slogan": "แก้วนี้ให้พ่อ เพื่อคุณพ่อคนเก่ง 👨‍👧‍👦💜",
+        "points": [
+          "🥤 ซื้อเครื่องดื่ม 2 แก้ว รับท็อปปิ้งฟรี 2 อย่าง",
+          "📸 ถ่ายรูปคู่คุณพ่อ + แชร์ Tag ร้าน รับคูปองส่วนลด 5 บาทครั้งถัดไป"
+        ],
+        "theme": "father",
+        "activityTitle": "แก้วนี้ให้พ่อ แชะคู่คุณพ่อกับฟ่าง 📸",
+        "activityDesc": [
+          "👨‍👧‍👦 แก้วนี้ให้พ่อ — วันพ่อปีนี้ ชวนคุณพ่อมาปั่นความอร่อยด้วยกัน 💜",
+          "🥤 ซื้อเครื่องดื่ม 2 แก้ว → 🎁 รับท็อปปิ้งฟรี 2 อย่าง (สำหรับแก้วของพ่อและแก้วของเรา)",
+          "📸 ถ่ายรูปคู่กับคุณพ่อและแก้วโปรด แล้วร่วมสนุกกับเรา ✨"
+        ],
+        "reward": "ท็อปปิ้งฟรี 2 อย่าง (เมื่อซื้อ 2 แก้ว) + 🎟️ คูปองส่วนลด 5 บาทครั้งถัดไป เมื่อถ่ายรูป & แชร์",
+        "steps": [
+          "🥤 สั่งเครื่องดื่ม 2 แก้ว รับท็อปปิ้งฟรี 2 อย่างทันที",
+          "📸 ถ่ายรูปคู่กับคุณพ่อและแก้วปั่นกับฟ่าง",
+          "📤 โพสต์ลง Facebook หรือ Instagram แบบสาธารณะ พร้อม Tag PunKubFang",
+          "🎟️ แสดงโพสต์ให้พนักงาน รับคูปองส่วนลด 5 บาทสำหรับครั้งถัดไป"
+        ],
+        "conditions": [
+          "ท็อปปิ้งฟรี 2 อย่าง เมื่อซื้อเครื่องดื่ม 2 แก้ว (เฉพาะเมนูที่ร่วมรายการ)",
+          "โพสต์ต้องตั้งค่าเป็นสาธารณะ และ Tag ร้าน PunKubFang",
+          "คูปองส่วนลด 5 บาท ใช้ได้ในการซื้อครั้งถัดไป · 1 สิทธิ์ต่อ 1 โพสต์",
+          "ไม่สามารถเปลี่ยนเป็นเงินสด และใช้ร่วมกับโปรโมชั่นอื่นไม่ได้",
+          "เฉพาะช่วงเทศกาลวันพ่อเท่านั้น · เงื่อนไขอาจเปลี่ยนแปลงได้โดยไม่ต้องแจ้งล่วงหน้า"
+        ],
+        "sampleCaption": "วันพ่อปีนี้ พาพ่อมาปั่นความอร่อยกับ @PunKubFang 👨‍👧‍👦💜 #ปั่นกับฟ่าง #วันพ่อ #แก้วนี้ให้พ่อ"
+      },
+      {
+        "id": "christmas",
+        "emoji": "🎄",
+        "titleTh": "คริสต์มาส",
+        "titleEn": "Christmas",
+        "month": 12,
+        "day": 25,
+        "slogan": "Christmas Special 🎄",
+        "points": [
+          "เมนูธีมสีแดง – เขียว – ขาว",
+          "โปรโมชั่นซื้อคู่ราคาพิเศษ"
+        ],
+        "theme": "christmas"
+      },
+      {
+        "id": "nye",
+        "emoji": "🎆",
+        "titleTh": "ส่งท้ายปีเก่า",
+        "titleEn": "New Year's Eve",
+        "month": 12,
+        "day": 31,
+        "slogan": "ส่งท้ายปีเก่าแบบสดชื่น 🎆",
+        "theme": "nye"
+      }
+    ]
+  },
+  {
+    "key": "DEFAULT_HERO_DECOR",
+    "label": "ของตกแต่ง Hero",
+    "group": "เว็บไซต์",
+    "value": [
+      "🍓",
+      "🧊",
+      "🥭"
+    ]
+  },
+  {
+    "key": "FESTIVAL_DECOR",
+    "label": "ของตกแต่งเทศกาล",
+    "group": "โปรโมชั่น",
+    "value": {
+      "newyear": [
+        "🎆",
+        "✨",
+        "⭐"
+      ],
+      "valentine": [
+        "💕",
+        "💗",
+        "🍓"
+      ],
+      "chinese": [
+        "🧧",
+        "🏮",
+        "✨"
+      ],
+      "songkran": [
+        "💦",
+        "🌊",
+        "🧊"
+      ],
+      "mother": [
+        "🌼",
+        "💙",
+        "💐"
+      ],
+      "halloween": [
+        "👻",
+        "🎃",
+        "🦇"
+      ],
+      "loykrathong": [
+        "🪷",
+        "🌕",
+        "✨"
+      ],
+      "father": [
+        "💛",
+        "🌼",
+        "⭐"
+      ],
+      "christmas": [
+        "❄️",
+        "⭐",
+        "🎄"
+      ],
+      "nye": [
+        "🎆",
+        "✨",
+        "⭐"
+      ],
+      "special": [
+        "🧋",
+        "🫧",
+        "🍓"
+      ]
+    }
+  },
+  {
+    "key": "REVIEWS",
+    "label": "รีวิวลูกค้า",
+    "group": "เว็บไซต์",
+    "value": [
+      {
+        "id": "mint",
+        "name": "น้องมิ้นท์",
+        "rating": 5,
+        "text": "อร่อยมากกก ผลไม้สดจริง ปั่นละเอียด เนื้อเนียนสุด ๆ เลยค่ะ 💜",
+        "avatarColor": "#c6a9f0"
+      },
+      {
+        "id": "praew",
+        "name": "K. Praew",
+        "rating": 5,
+        "text": "สั่งประจำเลยค่ะ ชอบทุกเมนู ร้านนี้ไม่หวานเกินไป ดีมาก ๆ",
+        "avatarColor": "#f89bc4"
+      },
+      {
+        "id": "mayji",
+        "name": "Mayji",
+        "rating": 5,
+        "text": "แพ็กเกจจิ้งน่ารักมาก ส่งไว แถมออร์เดอร์ตัวด้วยค่ะ",
+        "avatarColor": "#ffcf6b"
+      },
+      {
+        "id": "beam",
+        "name": "B.Beam",
+        "rating": 5,
+        "text": "มัทฉะนมสดคือดีงาม หอมเข้มข้น ไม่หวานเกิน ชอบค่ะ",
+        "avatarColor": "#a8ce7a"
+      }
+    ]
+  },
+  {
+    "key": "CONTACT",
+    "label": "ข้อมูลติดต่อร้าน",
+    "group": "เว็บไซต์",
+    "value": {
+      "phone": "089-123-4567",
+      "line": "@pankubfang",
+      "hoursLabel": "เปิดทุกวัน",
+      "hours": "09:00 - 20:00 น."
+    }
+  },
+  {
+    "key": "FEATURES",
+    "label": "จุดเด่นร้าน",
+    "group": "เว็บไซต์",
+    "value": [
+      {
+        "emoji": "🍒",
+        "title": "ผลไม้สด",
+        "detail": "คัดเกรดพรีเมียม"
+      },
+      {
+        "emoji": "🥤",
+        "title": "ปั่นสดใหม่",
+        "detail": "ทุกออร์เดอร์"
+      },
+      {
+        "emoji": "🌿",
+        "title": "ไม่ใส่วัตถุกันเสีย",
+        "detail": "ปลอดภัย อร่อยแน่นอน"
+      }
+    ]
+  },
+  {
+    "key": "GACHA_RARITY",
+    "label": "ระดับความหายาก Gacha",
+    "group": "Lucky Drink",
+    "value": {
+      "common": {
+        "label": "ธรรมดา",
+        "labelEn": "Common",
+        "emoji": "🍀",
+        "color": "#8ee39a"
+      },
+      "special": {
+        "label": "พิเศษ",
+        "labelEn": "Special",
+        "emoji": "✨",
+        "color": "#ffd76a"
+      },
+      "lucky": {
+        "label": "Lucky Drink",
+        "labelEn": "Lucky",
+        "emoji": "💜",
+        "color": "#b48cff"
+      },
+      "secret": {
+        "label": "SECRET MENU",
+        "labelEn": "Secret",
+        "emoji": "👀",
+        "color": "#ff8fb1"
+      }
+    }
+  },
+  {
+    "key": "GACHA_FROM_MENU",
+    "label": "เมนูหลักในตู้ Gacha",
+    "group": "Lucky Drink",
+    "value": [
+      "latte-blend",
+      "caramel-blend",
+      "bear-pink",
+      "bear-choco",
+      "two-tone-milk",
+      "thai-milk-tea",
+      "matcha-milk",
+      "peach-tea",
+      "lime-soda",
+      "passionfruit-soda",
+      "grape-yogurt",
+      "strawberry-milk",
+      "watermelon-smoothie",
+      "lychee-smoothie",
+      "avocado-smoothie"
+    ]
+  },
+  {
+    "key": "GACHA_MENUS",
+    "label": "เมนูลับ Gacha",
+    "group": "Lucky Drink",
+    "value": [
+      {
+        "id": "gacha-tamarind-soda",
+        "name": "มะขามเปรี้ยวซ่า",
+        "englishName": "Tamarind Fizz",
+        "description": "มะขามเปรี้ยวหวาน + โซดาซ่า ๆ แบบที่ไม่มีในเมนูหลัก 🌶️🫧",
+        "price": 45,
+        "emoji": "🌶️",
+        "category": "soda",
+        "palette": {
+          "foam": "#fde7c8",
+          "top": "#d98a3c",
+          "bottom": "#8a4b12"
+        },
+        "rarity": "secret",
+        "isSecret": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-lychee-rose-tea",
+        "name": "ชาลิ้นจี่กุหลาบ",
+        "englishName": "Lychee Rose Tea",
+        "description": "ชาดำหอม ๆ + ลิ้นจี่ + กลิ่นกุหลาบบาง ๆ เมนูทดลองของฟ่าง 🌹",
+        "price": 50,
+        "emoji": "🌹",
+        "category": "tea",
+        "palette": {
+          "foam": "#ffe3ec",
+          "top": "#f2a0bd",
+          "bottom": "#b23a62"
+        },
+        "rarity": "special",
+        "isSecret": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-pineapple-mint-soda",
+        "name": "สับปะรดมินต์โซดา",
+        "englishName": "Pineapple Mint Soda",
+        "description": "สับปะรดหวานฉ่ำ + ใบมินต์ + โซดา เย็นซ่าถึงใจ 🍍🌿",
+        "price": 45,
+        "emoji": "🍍",
+        "category": "soda",
+        "palette": {
+          "foam": "#fff7c2",
+          "top": "#ffe066",
+          "bottom": "#4fbf8a"
+        },
+        "rarity": "special",
+        "isSecret": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-choco-banana-blend",
+        "name": "กล้วยช็อกโกปั่นลับ",
+        "englishName": "Secret Choco Banana Blend",
+        "description": "กล้วยหอม + ช็อกโกแลตเข้ม + นมสด ปั่นเนียน ๆ ไม่ได้อยู่ในหมวดสมูทตี้ 🍌🍫",
+        "price": 55,
+        "emoji": "🍌",
+        "category": "smoothie",
+        "palette": {
+          "foam": "#f3e2c8",
+          "top": "#a9714b",
+          "bottom": "#5c3a2a"
+        },
+        "rarity": "lucky",
+        "isSecret": true,
+        "isSmoothie": true
+      },
+      {
+        "id": "gacha-mango-thaitea-blend",
+        "name": "มะม่วงชาไทยปั่น",
+        "englishName": "Mango Thai Tea Blend",
+        "description": "มะม่วงสุก + ชาไทยเข้ม ปั่นเป็นสองรสในแก้วเดียว มั่วแต่เข้ากัน 😂",
+        "price": 60,
+        "emoji": "🥭",
+        "category": "smoothie",
+        "palette": {
+          "foam": "#ffe9b8",
+          "top": "#ffb84d",
+          "bottom": "#c9662b"
+        },
+        "rarity": "lucky",
+        "isSecret": true,
+        "isSmoothie": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-butterfly-lemon-milk",
+        "name": "นมอัญชันเลมอน",
+        "englishName": "Butterfly Pea Lemon Milk",
+        "description": "นมสด + อัญชัน + เลมอน เปลี่ยนสีม่วง-ชมพูตอนคน 💜🍋",
+        "price": 45,
+        "emoji": "🦋",
+        "category": "milk",
+        "palette": {
+          "foam": "#ffffff",
+          "top": "#b9a6ff",
+          "bottom": "#6d4bd6"
+        },
+        "rarity": "special",
+        "isSecret": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-coconut-coffee",
+        "name": "กาแฟมะพร้าว",
+        "englishName": "Coconut Coffee",
+        "description": "เอสเพรสโซ + น้ำมะพร้าว + นมมะพร้าว หอมมันแบบไม่คาดคิด 🥥☕",
+        "price": 55,
+        "emoji": "🥥",
+        "category": "drinks",
+        "palette": {
+          "foam": "#f7efe6",
+          "top": "#b58a63",
+          "bottom": "#5b3a24"
+        },
+        "rarity": "special",
+        "isSecret": true,
+        "isSpecial": true
+      },
+      {
+        "id": "gacha-strawberry-matcha-blend",
+        "name": "สตรอว์เบอร์รีมัทฉะปั่น",
+        "englishName": "Strawberry Matcha Blend",
+        "description": "ชั้นสตรอว์เบอร์รีสด + มัทฉะปั่น สีสวยแปลกตา 🍓🍵",
+        "price": 65,
+        "emoji": "🍓",
+        "category": "smoothie",
+        "palette": {
+          "foam": "#ffe3ec",
+          "top": "#ff8fb1",
+          "bottom": "#4f9a5a"
+        },
+        "rarity": "secret",
+        "isSecret": true,
+        "isSmoothie": true,
+        "isSpecial": true
+      }
+    ]
+  }
+]

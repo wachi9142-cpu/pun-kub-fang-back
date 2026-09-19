@@ -1,0 +1,19 @@
+import { describe, expect, test } from "bun:test";
+import { contentUpdateSchema, orderInputSchema, orderStatusSchema } from "../src/content/schema";
+
+describe("CMS and order schemas", () => {
+  test("accepts JSON content values", () => {
+    expect(contentUpdateSchema.parse({ value: [{ id: "tea", price: 35 }] }).value).toHaveLength(1);
+  });
+
+  test("calculates with validated order lines", () => {
+    const input = orderInputSchema.parse({
+      items: [{ id: "tea-หวานน้อย", name: "ชาไทย", price: 35, qty: 2, options: ["หวานน้อย"] }],
+    });
+    expect(input.items[0].price * input.items[0].qty).toBe(70);
+  });
+
+  test("rejects unsupported order status", () => {
+    expect(() => orderStatusSchema.parse({ status: "refunded" })).toThrow();
+  });
+});

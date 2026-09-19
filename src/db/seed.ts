@@ -1,4 +1,5 @@
 import seedProducts from "./seed-products.json";
+import contentDatasets from "./content-seed.json";
 import { sql } from "./client";
 
 for (const product of seedProducts) {
@@ -17,5 +18,15 @@ for (const product of seedProducts) {
   `;
 }
 
+for (const dataset of contentDatasets) {
+  await sql`
+    INSERT INTO content_datasets (key, label, group_name, value)
+    VALUES (${dataset.key}, ${dataset.label}, ${dataset.group}, ${sql.json(dataset.value)})
+    ON CONFLICT (key) DO NOTHING
+  `;
+}
+
 await sql.end();
-console.info(`Seeded ${seedProducts.length} products (existing slugs were kept)`);
+console.info(
+  `Seeded ${seedProducts.length} products and ${contentDatasets.length} CMS datasets (existing data was kept)`,
+);
