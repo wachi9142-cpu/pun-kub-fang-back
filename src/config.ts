@@ -9,6 +9,8 @@ const envSchema = z.object({
   JWT_SECRET: z.string().min(24, "JWT_SECRET must have at least 24 characters"),
   UPLOAD_DIR: z.string().default("uploads"),
   MAX_UPLOAD_MB: z.coerce.number().positive().max(20).default(5),
+  AI_GATEWAY_URL: z.string().url(),
+  AI_TIMEOUT_MS: z.coerce.number().int().positive().max(120_000).default(30_000),
 });
 
 export const env = envSchema.parse(process.env);

@@ -14,7 +14,9 @@ import {
   contentUpdateSchema,
   orderInputSchema,
   orderStatusSchema,
+  recommendationRequestSchema,
 } from "./content/schema";
+import { recommendDrinks, type RecommendationCatalog } from "./recommendations/service";
 
 type Variables = { admin: { role: "admin" } };
 const app = new Hono<{ Variables: Variables }>();
@@ -119,6 +121,41 @@ app.post("/api/orders", async (c) => {
     { order: { id, orderNumber, status: "new", itemCount, total } },
     201,
   );
+});
+
+app.post("/api/recommendations", async (c) => {
+  const input = recommendationRequestSchema.parse(await c.req.json());
+  const [productRows, datasetRows] = await Promise.all([
+    sql`
+      SELECT * FROM products
+      WHERE active = TRUE AND sold_out = FALSE
+      ORDER BY sort_order ASC, created_at ASC
+    `,
+    sql`
+      SELECT key, value FROM content_datasets
+      WHERE key IN (
+        'MIX_BASES', 'MIX_TEA_TYPES', 'MIX_HERBAL_TYPES',
+        'MIX_SYRUPS', 'TOPPING_GROUPS'
+      )
+    `,
+  ]);
+  const datasets = Object.fromEntries(
+    datasetRows.map((row) => [String(row.key), row.value]),
+  ) as Record<string, unknown>;
+  const toppingGroups = Array.isArray(datasets.TOPPING_GROUPS)
+    ? datasets.TOPPING_GROUPS as Array<{ items?: unknown[] }>
+    : [];
+  const catalog = {
+    products: productRows.map(toProduct),
+    bases: Array.isArray(datasets.MIX_BASES) ? datasets.MIX_BASES : [],
+    teas: Array.isArray(datasets.MIX_TEA_TYPES) ? datasets.MIX_TEA_TYPES : [],
+    herbals: Array.isArray(datasets.MIX_HERBAL_TYPES) ? datasets.MIX_HERBAL_TYPES : [],
+    syrups: Array.isArray(datasets.MIX_SYRUPS) ? datasets.MIX_SYRUPS : [],
+    toppings: toppingGroups.flatMap((group) => Array.isArray(group.items) ? group.items : []),
+  } as RecommendationCatalog;
+  const result = await recommendDrinks(input.prompt, catalog);
+  c.header("Cache-Control", "no-store");
+  return c.json(result);
 });
 
 app.post("/api/admin/login", async (c) => {

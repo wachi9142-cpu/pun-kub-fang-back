@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { contentUpdateSchema, orderInputSchema, orderStatusSchema } from "../src/content/schema";
+import { contentUpdateSchema, orderInputSchema, orderStatusSchema, recommendationRequestSchema } from "../src/content/schema";
 
 describe("CMS and order schemas", () => {
   test("accepts JSON content values", () => {
@@ -15,5 +15,13 @@ describe("CMS and order schemas", () => {
 
   test("rejects unsupported order status", () => {
     expect(() => orderStatusSchema.parse({ status: "refunded" })).toThrow();
+  });
+
+  test("accepts a customer recommendation prompt", () => {
+    expect(recommendationRequestSchema.parse({ prompt: "  อยากได้เปรี้ยวสดชื่น งบ 50  " }).prompt).toBe("อยากได้เปรี้ยวสดชื่น งบ 50");
+  });
+
+  test("rejects oversized recommendation prompts", () => {
+    expect(() => recommendationRequestSchema.parse({ prompt: "x".repeat(501) })).toThrow();
   });
 });

@@ -43,8 +43,13 @@ API จะทำงานที่ `http://localhost:3001` และมี healt
 
 - `GET /api/site` ข้อมูลทั้งหมดที่หน้าเว็บลูกค้าใช้
 - `POST /api/orders` สร้างออเดอร์
+- `POST /api/recommendations` วิเคราะห์ภาษาลูกค้าและเสนอสูตรมิกซ์ 3 แก้ว + เมนูสำเร็จ 3 แก้ว
 - `GET|POST|PUT|DELETE /api/admin/products` จัดการสินค้า
 - `GET /api/admin/content` และ `PUT /api/admin/content/:key` จัดการเนื้อหา
 - `GET /api/admin/orders`, `PUT /api/admin/orders/:id/status` และ `DELETE /api/admin/orders/:id` จัดการออเดอร์
 
 เส้นทาง `/api/admin/*` ต้องส่ง admin token ที่ได้จาก `/api/admin/login`
+
+## AI แนะนำเครื่องดื่ม
+
+กำหนด `AI_GATEWAY_URL` ให้ชี้ไปยัง AI Develyst gateway จาก Bruno collection ระบบจะแยกการประมวลผลเป็นหลาย call: DeepSeek วิเคราะห์ความต้องการ, xAI ออกแบบสูตรมิกซ์, OpenAI คัดเมนูสำเร็จ และ DeepSeek ตรวจทาน (fallback เป็น OpenAI เมื่อ DeepSeek ไม่คืน content) ก่อนตรวจ ID ราคา สถานะขาย และจำนวนผลลัพธ์กับข้อมูลจริงอีกครั้ง

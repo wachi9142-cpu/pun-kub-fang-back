@@ -26,3 +26,7 @@ export const orderInputSchema = z.object({
 export const orderStatusSchema = z.object({
   status: z.enum(["new", "confirmed", "preparing", "ready", "completed", "cancelled"]),
 });
+
+export const recommendationRequestSchema = z.object({
+  prompt: z.string().trim().min(3).max(500),
+});
